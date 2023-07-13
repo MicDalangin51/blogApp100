@@ -1,17 +1,20 @@
 {
-    "users": {
-        "MICD33333": {
-            "hashedPassword": "$2b$10$o0jbkjSPULg4nIkx90FYku2abmZuWS6Vk1bG83sOq4Kn4nah5Eqvm",
-            "firstname": "Mic",
-            "lastname": "Cortes",
-            "createdDate": 1673452042547,
-            "updatedDate": 1673452042547
-        }
+  "users": {
+    "MICD33333": {
+      "hashedPassword": "$2b$10$o0jbkjSPULg4nIkx90FYku2abmZuWS6Vk1bG83sOq4Kn4nah5Eqvm",
+      "firstname": "Mic",
+      "lastname": "Cortes",
+      "createdDate": 1673452042547,
+      "updatedDate": 1673452042547
     },
-    "blogs": {
-
-    },
-    "comments": {
-
+    "Mart51": {
+      "hashedPassword": "$2b$10$itxZr/mkClqLn2Hb1GYHoeQ8Ok1NPPlaBt48VBvwShepelzxoH/tK",
+      "firstName": "Mic",
+      "lastName": "Dalangin",
+      "createdDate": 1689227986536,
+      "updatedDate": 1689227986536
     }
+  },
+  "blogs": {},
+  "comments": {}
 }
