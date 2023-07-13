@@ -2,10 +2,10 @@ export const userData = {
     '/change-password': {
       post: {
         summary: 'Change user password',
-        operationId: 'changePassword',
+        operationId: 'changeOwnPassword',
   
         requestBody: {
-          description: 'The request body for todo',
+          description: 'The request body for new password',
           content: {
             'application/json': {
               schema: {
