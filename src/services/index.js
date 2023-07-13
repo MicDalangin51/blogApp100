@@ -11,4 +11,5 @@ export class Service {
     general = general
     registerUser = registerUser
     loginUser = loginUser
+    logoutUser = logoutUser
 }
