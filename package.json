@@ -1,10 +1,14 @@
 {
-  "name": "blogapp100",
+  "name": "0.0.1",
   "version": "0.0.1",
-  "description": "Blog Application",
+  "description": "todoApp",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index",
+    "semistandard": "semistandard --fix",
+    "tap": "c8 --lines 80 --functions 80 --branches 80 --statements 80 --check-coverage --per-file tap test/**/*.test.js --no-coverage",
+    "test": "npm run semistandard && npm run tap"
   },
   "repository": {
     "type": "git",
@@ -13,8 +17,8 @@
   "keywords": [
     "Node",
     "JS",
-    "Web",
-    "Server"
+    "web",
+    "server"
   ],
   "author": "Martin Ivan Dalangin",
   "license": "Apache-2.0",
@@ -23,20 +27,26 @@
   },
   "homepage": "https://github.com/MicDalangin51/blogApp100#readme",
   "devDependencies": {
-    "@babel/eslint-parser": "^7.22.7",
+    "@babel/eslint-parser": "^7.19.1",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
-    "@babel/plugin-proposal-decorators": "^7.22.7",
-    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
-    "@babel/plugin-transform-runtime": "^7.22.7",
-    "eslint": "^8.44.0",
-    "eslint-config-semistandard": "16.0.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-chai-expect": "^3.0.0",
-    "eslint-plugin-html": "^7.1.0",
-    "eslint-plugin-mocha": "^10.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-standard": "^5.0.0",
-    "semistandard": "^17.0.0"
+    "@babel/plugin-proposal-decorators": "^7.19.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.18.9",
+    "@babel/plugin-transform-runtime": "^7.19.1",
+    "@babel/preset-env": "^7.19.3",
+    "c8": "^7.12.0",
+    "chance": "^1.1.9",
+    "eslint": "8.24.0",
+    "eslint-config-semistandard": "17.0.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-chai-expect": "3.0.0",
+    "eslint-plugin-html": "7.1.0",
+    "eslint-plugin-mocha": "10.1.0",
+    "eslint-plugin-promise": "6.0.1",
+    "eslint-plugin-standard": "4.1.0",
+    "must": "^0.13.4",
+    "nodemon": "^2.0.20",
+    "semistandard": "^16.0.1",
+    "tap": "^16.3.0"
   },
   "semistandard": {
     "plugins": [
@@ -47,7 +57,26 @@
       "chai-expect"
     ],
     "parser": "@babel/eslint-parser",
-    "env": [],
-    "globals": []
+    "env": [
+      "mocha"
+    ],
+    "globals": [
+      "describe",
+      "it",
+      "after",
+      "before",
+      "expect"
+    ]
+  },
+  "dependencies": {
+    "@fastify/cookie": "^8.3.0",
+    "@fastify/jwt": "^6.3.2",
+    "@fastify/secure-session": "^5.2.0",
+    "@fastify/sensible": "^5.1.1",
+    "@fastify/swagger": "^7.6.1",
+    "bcrypt": "^5.1.0",
+    "fastify": "^4.7.0",
+    "fastify-openapi-glue": "^4.0.2",
+    "uuid": "^9.0.0"
   }
 }
