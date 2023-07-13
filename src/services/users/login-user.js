@@ -8,7 +8,7 @@ export const loginUser = async (request, reply) => {
   const db = await getData();
 
   if (!db.users[username]) {
-    return reply.unauthorized('No username');
+    return reply.unauthorized('Incorrect username was provided');
   }
 
   if (!await compare(password, db.users[username].hashedPassword)) {
