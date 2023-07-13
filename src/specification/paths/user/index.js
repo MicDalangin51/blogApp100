@@ -15,5 +15,22 @@ export const user = {
           {}
         ]
       }
-    }
+    },
+    '/login': {
+        post: {
+          summary: 'Login a user',
+          operationId: 'loginUser',
+          requestBody: {
+            $ref: '#/components/requestBodies/LoginUser'
+          },
+          responses: {
+            200: {
+              $ref: '#/components/responses/SuccessfulResponse'
+            }
+          },
+          security: [
+            {}
+          ]
+        }
+      }
 };
