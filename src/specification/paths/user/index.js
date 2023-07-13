@@ -1,5 +1,5 @@
 export const user = {
-    '/register': {
+    '/user': {
       post: {
         summary: 'Register a new user',
         operationId: 'registerUser',
