@@ -49,7 +49,7 @@ export const userData = {
     '/user/:userId': {
       get: {
         summary: 'Get a user data',
-        operationId: 'getUserData',
+        operationId: 'seeUserData',
         parameters: [
           {
             $ref: '#/components/parameters/UserParameterId'
