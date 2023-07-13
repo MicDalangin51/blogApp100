@@ -13,6 +13,13 @@
       "lastName": "Dalangin",
       "createdDate": 1689227986536,
       "updatedDate": 1689227986536
+    },
+    "HotStar68": {
+      "hashedPassword": "$2b$10$IOjGvA594fw9.xPf8n59fezpfwsRaCgwfQzebXlhdW1PelL6iK/iu",
+      "firstName": "Hot",
+      "lastName": "Star",
+      "createdDate": 1689230006814,
+      "updatedDate": 1689230006814
     }
   },
   "blogs": {},

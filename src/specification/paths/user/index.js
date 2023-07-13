@@ -18,8 +18,8 @@ export const user = {
     },
     '/login': {
         post: {
-          summary: 'Logs in a user',
-          operationId: 'login',
+          summary: 'Login a user',
+          operationId: 'loginUser',
           requestBody: {
             $ref: '#/components/requestBodies/LoginUser'
           },
