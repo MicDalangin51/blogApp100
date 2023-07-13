@@ -32,5 +32,21 @@ export const user = {
             {}
           ]
         }
+    },
+    '/logout': {
+        post: {
+          summary: 'Logout a user',
+          operationId: 'logoutUser',
+          responses: {
+            200: {
+              $ref: '#/components/responses/SuccessfulResponse'
+            }
+          },
+          security: [
+            {
+              cookieAuth: []
+            }
+          ]
+        }
       }
 };
