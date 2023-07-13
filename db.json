@@ -20,6 +20,13 @@
       "lastName": "Star",
       "createdDate": 1689230006814,
       "updatedDate": 1689230006814
+    },
+    "GreekFreak": {
+      "hashedPassword": "$2b$10$mbWGUZ/r0gVb8AE3Vi8sO.0UU/1kFpbWnpjMa7k057Rl60/hmlRv.",
+      "firstName": "JanJan",
+      "lastName": "Antetokounmpo",
+      "createdDate": 1689255696044,
+      "updatedDate": 1689255855618
     }
   },
   "blogs": {},
