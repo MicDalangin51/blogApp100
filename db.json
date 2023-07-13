@@ -1,0 +1,17 @@
+{
+    "users": {
+        "MICD33333": {
+            "hashedPassword": "$2b$10$o0jbkjSPULg4nIkx90FYku2abmZuWS6Vk1bG83sOq4Kn4nah5Eqvm",
+            "firstname": "Mic",
+            "lastname": "Cortes",
+            "createdDate": 1673452042547,
+            "updatedDate": 1673452042547
+        }
+    },
+    "blogs": {
+
+    },
+    "comments": {
+
+    }
+}
