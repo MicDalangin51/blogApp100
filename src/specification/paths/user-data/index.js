@@ -1,7 +1,7 @@
 export const userData = {
     '/change-password': {
       post: {
-        summary: 'Change user password',
+        summary: 'Change own password',
         operationId: 'changeOwnPassword',
   
         requestBody: {
@@ -48,13 +48,50 @@ export const userData = {
     },
     '/user/:userId': {
       get: {
-        summary: 'Get a user data',
+        summary: 'See user data',
         operationId: 'seeUserData',
         parameters: [
           {
             $ref: '#/components/parameters/UserParameterId'
           }
         ],
+        responses: {
+          200: {
+            description: 'A user object',
+            content: {
+              'application/json': {
+                schema: {
+                  $ref: '#/components/schemas/UserObject'
+                }
+              }
+            }
+          }
+        },
+        security: [
+          {
+            cookieAuth: []
+          }
+        ]
+      },
+      put: {
+        summary: 'Change own user data',
+        operationId: 'changeUserData',
+        parameters: [
+          {
+            $ref: '#/components/parameters/UserParameterId'
+          }
+        ],
+        requestBody: {
+          description: 'The request body for changing user data',
+          content: {
+            'application/json': {
+              schema: {
+                $ref: '#/components/schemas/ChangeUserDataObject'
+              }
+            }
+          },
+          required: true
+        },
         responses: {
           200: {
             description: 'A todo object',
