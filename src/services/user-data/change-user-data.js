@@ -13,7 +13,7 @@ export const changeUserData = async (request, reply) => {
   const db = await getData();
 
   if (userId !== username) {
-    return reply.forbidden('You cannot other users data');
+    return reply.forbidden('You cannot edit other users data');
   }
 
   db.users[userId].firstName = firstName || db.users[userId].firstName;
