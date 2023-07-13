@@ -3,6 +3,7 @@ import { registerUser } from './users/register-user.js';
 import { loginUser } from './users/login-user.js';
 import { logoutUser } from './users/logout-user.js';
 import { changeOwnPassword } from './user-data/change-own-password.js';
+import { seeUserData } from './user-data/see-user-data.js';
 
 export class Service {
   constructor (app) {
@@ -14,4 +15,5 @@ export class Service {
     loginUser = loginUser
     logoutUser = logoutUser
     changeOwnPassword = changeOwnPassword
+    seeUserData = seeUserData
 }
