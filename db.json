@@ -45,22 +45,6 @@
       "createdDate": 1689300170763,
       "updatedDate": 1689300170763
     },
-    "e4128b09-7661-4b93-bdde-05be2e7bfcb9": {
-      "title": "Edited Blog",
-      "content": "I tried editing this blog and fortunately it works",
-      "username": "GreekFreak",
-      "comments": [],
-      "createdDate": 1689300247702,
-      "updatedDate": 1689302133907
-    },
-    "d419c0cc-753e-4930-90aa-4df17340aa6b": {
-      "title": "Olympics 2024?",
-      "content": "The Olympics is a nice event to participate in but I want to focus on preparing for the next season first",
-      "username": "GreekFreak",
-      "comments": [],
-      "createdDate": 1689300756161,
-      "updatedDate": 1689300756161
-    },
     "7ffde6ff-909c-4052-bf22-7c0dd1553c57": {
       "title": "College is so very very stressful [edited]",
       "content": "So I edited this because I did not want to sound so emotional to the public LOL but goodluck to all students working hard to get their degree!",
@@ -68,6 +52,22 @@
       "comments": [],
       "createdDate": 1689303120313,
       "updatedDate": 1689303313996
+    },
+    "043026dd-4a4b-4103-ba5f-ed027ca27dca": {
+      "title": "Milwaukee is my home",
+      "content": "Despite a rough playoffs during the past 2 years, it does not change the fact that the Bucks are my family. We won a championship in 2021 and history could never change that which is why I want to stay and win more with the team",
+      "username": "GreekFreak",
+      "comments": [],
+      "createdDate": 1689314642918,
+      "updatedDate": 1689314642918
+    },
+    "7cdd2d35-01e8-47cf-8f3d-cc16b4b21d46": {
+      "title": "Im not scared of the Celtics",
+      "content": "Despite being the #2 seed during the 2022-23 NBA Season, we do not think the Celtics could beat us in a 7-game series in the playoffs. They have no depth after they traded away Marcus Smart and replaced him with Kristaps Porzingis who has no defense.",
+      "username": "GreekFreak",
+      "comments": [],
+      "createdDate": 1689314728201,
+      "updatedDate": 1689314728201
     }
   },
   "comments": {}
