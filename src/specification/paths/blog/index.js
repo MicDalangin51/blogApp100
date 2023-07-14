@@ -70,6 +70,32 @@ export const blog = {
                 cookieAuth: []
               }
             ]
+        },
+        get: {
+            summary: 'View blog page with comments',
+            operationId: 'viewBlogPage',
+            parameters: [
+              {
+                $ref: '#/components/parameters/BlogParameterId'
+              }
+            ],
+            responses: {
+              200: {
+                description: 'A blog object',
+                content: {
+                  'application/json': {
+                    schema: {
+                      $ref: '#/components/schemas/BlogObject'
+                    }
+                  }
+                }
+              }
+            },
+            security: [
+              {
+                cookieAuth: []
+              }
+            ]
         }
     }
 };
