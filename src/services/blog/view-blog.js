@@ -17,10 +17,6 @@ export const viewBlogPage = async (request, reply) => {
     return reply.notFound();
   }
 
-  if (blogs[id].username !== username) {
-    return reply.forbidden('Sorry you are not the owner of this blog');
-  }
-
   return {
     id,
     ...blogs[id]
