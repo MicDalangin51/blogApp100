@@ -8,6 +8,7 @@ import { changeUserData } from './user-data/change-user-data.js';
 import { createBlogPage } from './blog/create-blog.js';
 import { editBlogPage } from './blog/edit-blog.js';
 import { viewBlogPage } from './blog/view-blog.js';
+import { deleteBlogData } from './blog/delete-blog.js';
 
 export class Service {
   constructor (app) {
@@ -24,4 +25,5 @@ export class Service {
     createBlogPage = createBlogPage
     editBlogPage = editBlogPage
     viewBlogPage = viewBlogPage
+    deleteBlogData = deleteBlogData
 }

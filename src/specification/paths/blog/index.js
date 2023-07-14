@@ -96,6 +96,37 @@ export const blog = {
                 cookieAuth: []
               }
             ]
-        }
+        },
+        delete: {
+            summary: 'Delete own blog data',
+            operationId: 'deleteBlogData',
+            parameters: [
+              {
+                $ref: '#/components/parameters/BlogParameterId'
+              }
+            ],
+            responses: {
+              200: {
+                description: 'successful response',
+                content: {
+                  'application/json': {
+                    schema: {
+                      type: 'object',
+                      properties: {
+                        success: {
+                          type: 'boolean'
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            security: [
+              {
+                cookieAuth: []
+              }
+            ]
+          }
     }
 };
