@@ -29,7 +29,7 @@ describe('change password should work', async () => {
   it('it should return an error when the user is not yet logged in', async () => {
     const response = await app.inject({
       method: 'PUT',
-      url: `${prefix}/user/rapVispo`,
+      url: `${prefix}/user/HotStar68`,
       headers: {
         'Content-Type': 'application/json',
         cookie
@@ -49,7 +49,7 @@ describe('change password should work', async () => {
   it('Should return the user that was created a new user', async () => {
     const response = await app.inject({
       method: 'POST',
-      url: `${prefix}/register`,
+      url: `${prefix}/user`,
       headers: {
         'Content-Type': 'application/json'
       },

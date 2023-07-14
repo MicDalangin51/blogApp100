@@ -35,7 +35,7 @@ describe('Get a blog should work', async () => {
 
     const response = await app.inject({
       method: 'GET',
-      url: `${prefix}/user/rapVispo`,
+      url: `${prefix}/user/HotStar68`,
       headers: {
         'Content-Type': 'application/json',
         cookie
@@ -51,7 +51,7 @@ describe('Get a blog should work', async () => {
   it('Should return the user that was created a new user', async () => {
     const response = await app.inject({
       method: 'POST',
-      url: `${prefix}/register`,
+      url: `${prefix}/user`,
       headers: {
         'Content-Type': 'application/json'
       },
@@ -95,7 +95,7 @@ describe('Get a blog should work', async () => {
   // Start test here
   it('Should return the object given an ID', async () => {
     const newTodo = {
-      title: 'New Todo for get',
+      title: 'New User for get',
       description: 'Some description'
     };
 

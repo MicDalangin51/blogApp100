@@ -32,5 +32,44 @@ export const blog = {
             }
           ]
         }
+    },
+    '/blog/:blogId': {
+        put: {
+            summary: 'Edit own blog page',
+            operationId: 'editBlogPage',
+            parameters: [
+              {
+                $ref: '#/components/parameters/BlogParameterId'
+              }
+            ],
+            requestBody: {
+              description: 'The request body for todo',
+              content: {
+                'application/json': {
+                  schema: {
+                    $ref: '#/components/schemas/BlogRequestObject'
+                  }
+                }
+              },
+              required: true
+            },
+            responses: {
+              200: {
+                description: 'A Blog object',
+                content: {
+                  'application/json': {
+                    schema: {
+                      $ref: '#/components/schemas/BlogObject'
+                    }
+                  }
+                }
+              }
+            },
+            security: [
+              {
+                cookieAuth: []
+              }
+            ]
+        }
     }
 };
