@@ -7,6 +7,7 @@ import { seeUserData } from './user-data/see-user-data.js';
 import { changeUserData } from './user-data/change-user-data.js';
 import { createBlogPage } from './blog/create-blog.js';
 import { editBlogPage } from './blog/edit-blog.js';
+import { viewBlogPage } from './blog/view-blog.js';
 
 export class Service {
   constructor (app) {
@@ -22,4 +23,5 @@ export class Service {
     changeUserData = changeUserData
     createBlogPage = createBlogPage
     editBlogPage = editBlogPage
+    viewBlogPage = viewBlogPage
 }
