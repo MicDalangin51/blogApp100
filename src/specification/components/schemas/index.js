@@ -15,9 +15,9 @@ export const schemas = {
           type: 'string'
         },
         comments: {
-          type: 'array',
-          items: {
-            type: 'string'
+          type: 'object',
+          properties: {
+           
           }
         },
         createdDate: {
@@ -30,6 +30,8 @@ export const schemas = {
   
       }
     },
+
+    
     BlogRequestRequiredObject: {
       type: 'object',
       properties: {
@@ -45,6 +47,59 @@ export const schemas = {
         'content'
       ]
     },
+
+    ViewBlogObject: {
+      type: 'object',
+      properties: {
+        id: {
+          type: 'string'
+  
+        },
+        title: {
+          type: 'string'
+        },
+        description: {
+          type: 'string'
+        },
+        username: {
+          type: 'string'
+        },
+        comments: {
+          type: 'array',
+          items: {
+            type: 'object',
+            properties: {
+              id: {
+                type: 'string'
+  
+              },
+              message: {
+                type: 'string'
+              },
+              username: {
+                type: 'string'
+              },
+  
+              createdDate: {
+                type: 'number'
+              },
+              updatedDate: {
+                type: 'number'
+              }
+            }
+          }
+        },
+        createdDate: {
+          type: 'number'
+        },
+        updatedDate: {
+          type: 'number'
+  
+        }
+  
+      }
+    },
+  
   
     BlogRequestObject: {
       type: 'object',
