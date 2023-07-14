@@ -28,7 +28,7 @@ describe('Logging out a user should work', async () => {
   it('Should return the user that was created a new user', async () => {
     const response = await app.inject({
       method: 'POST',
-      url: `${prefix}/register`,
+      url: `${prefix}/user`,
       headers: {
         'Content-Type': 'application/json'
       },
@@ -71,7 +71,7 @@ describe('Logging out a user should work', async () => {
 
   it('Logout should work', async () => {
     const response = await app.inject({
-      method: 'GET',
+      method: 'POST',
       url: `${prefix}/logout`,
       headers: {
         'Content-Type': 'application/json',
@@ -85,7 +85,7 @@ describe('Logging out a user should work', async () => {
 
   it('Logout should return an error without a cookie', async () => {
     const response = await app.inject({
-      method: 'GET',
+      method: 'POST',
       url: `${prefix}/logout`,
       headers: {
         'Content-Type': 'application/json'

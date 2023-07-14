@@ -26,7 +26,7 @@ describe('Login a user should work', async () => {
   it('Should return the user that was created a new user', async () => {
     const response = await app.inject({
       method: 'POST',
-      url: `${prefix}/register`,
+      url: `${prefix}/user`,
       headers: {
         'Content-Type': 'application/json'
       },

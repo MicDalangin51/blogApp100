@@ -30,7 +30,7 @@ describe('Get a blog should work', async () => {
   it('it should return an error when the user is not yet logged in', async () => {
     const response = await app.inject({
       method: 'PUT',
-      url: `${prefix}/user/rapVispo`,
+      url: `${prefix}/user/HotStar68`,
       headers: {
         'Content-Type': 'application/json',
         cookie
@@ -124,7 +124,7 @@ describe('Get a blog should work', async () => {
 
   it('Logout should work', async () => {
     const response = await app.inject({
-      method: 'GET',
+      method: 'POST',
       url: `${prefix}/logout`,
       headers: {
         'Content-Type': 'application/json',
