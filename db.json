@@ -16,19 +16,44 @@
     },
     "HotStar68": {
       "hashedPassword": "$2b$10$TT.hRC5tbQ0wwLV74GgKROqLW7ekpcAf.GDITvnPB7YbYW4vkJBie",
-      "firstName": "Hot",
-      "lastName": "Star",
+      "firstName": "Robert",
+      "lastName": "MackDagger",
       "createdDate": 1689230006814,
-      "updatedDate": 1689230006814
+      "updatedDate": 1689257993403
     },
     "GreekFreak": {
       "hashedPassword": "$2b$10$mbWGUZ/r0gVb8AE3Vi8sO.0UU/1kFpbWnpjMa7k057Rl60/hmlRv.",
-      "firstName": "JanJan",
+      "firstName": "Giannis",
       "lastName": "Antetokounmpo",
       "createdDate": 1689255696044,
-      "updatedDate": 1689255855618
+      "updatedDate": 1689300672804
     }
   },
-  "blogs": {},
+  "blogs": {
+    "f2ac5ab9-33ee-47e1-b984-749e363d9ae4": {
+      "title": "This is my first blog!",
+      "content": "Does anyone want chicken wings?",
+      "username": "HotStar68",
+      "comments": [],
+      "createdDate": 1689300170763,
+      "updatedDate": 1689300170763
+    },
+    "e4128b09-7661-4b93-bdde-05be2e7bfcb9": {
+      "title": "Another season incoming",
+      "content": "Personally I think we would do well with our new coach. Nevertheless, the East has become stronger.",
+      "username": "GreekFreak",
+      "comments": [],
+      "createdDate": 1689300247702,
+      "updatedDate": 1689300247702
+    },
+    "d419c0cc-753e-4930-90aa-4df17340aa6b": {
+      "title": "Olympics 2024?",
+      "content": "The Olympics is a nice event to participate in but I want to focus on preparing for the next season first",
+      "username": "GreekFreak",
+      "comments": [],
+      "createdDate": 1689300756161,
+      "updatedDate": 1689300756161
+    }
+  },
   "comments": {}
 }

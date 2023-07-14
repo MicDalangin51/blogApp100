@@ -4,16 +4,21 @@ export const schemas = {
       properties: {
         id: {
           type: 'string'
-  
         },
         title: {
           type: 'string'
         },
-        description: {
+        content: {
           type: 'string'
         },
-        isDone: {
-          type: 'boolean'
+        username: {
+          type: 'string'
+        },
+        comments: {
+          type: 'array',
+          items: {
+            type: 'string'
+          }
         },
         createdDate: {
           type: 'number'
@@ -31,16 +36,13 @@ export const schemas = {
         title: {
           type: 'string'
         },
-        description: {
+        content: {
           type: 'string'
         },
-        isDone: {
-          type: 'boolean'
-        }
       },
       required: [
         'title',
-        'description'
+        'content'
       ]
     },
   
@@ -50,7 +52,7 @@ export const schemas = {
         title: {
           type: 'string'
         },
-        description: {
+        content: {
           type: 'string'
         },
         isDone: {
