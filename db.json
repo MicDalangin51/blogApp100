@@ -29,6 +29,23 @@
       "updatedDate": 1689255855618
     }
   },
-  "blogs": {},
+  "blogs": {
+    "f2ac5ab9-33ee-47e1-b984-749e363d9ae4": {
+      "title": "This is my first blog!",
+      "content": "Does anyone want chicken wings?",
+      "username": "HotStar68",
+      "comments": [],
+      "createdDate": 1689300170763,
+      "updatedDate": 1689300170763
+    },
+    "e4128b09-7661-4b93-bdde-05be2e7bfcb9": {
+      "title": "Another season incoming",
+      "content": "Personally I think we would do well with our new coach. Nevertheless, the East has become stronger.",
+      "username": "GreekFreak",
+      "comments": [],
+      "createdDate": 1689300247702,
+      "updatedDate": 1689300247702
+    }
+  },
   "comments": {}
 }
