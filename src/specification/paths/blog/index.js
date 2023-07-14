@@ -20,7 +20,7 @@ export const blog = {
               content: {
                 'application/json': {
                   schema: {
-                    $ref: '#/components/schemas/BlogObject'
+                    $ref: '#/components/schemas/ViewBlogObject'
                   }
                 }
               }
@@ -31,6 +31,40 @@ export const blog = {
               cookieAuth: []
             }
           ]
+        },
+        get: {
+            summary: 'List blog page',
+            operationId: 'listBlogPage',
+            parameters: [
+              {
+                name: 'limit',
+                in: 'query',
+                description: 'The number of items returned',
+                schema: {
+                  type: 'number'
+                }
+              }
+            ],
+            responses: {
+              200: {
+                description: 'A blog object',
+                content: {
+                  'application/json': {
+                    schema: {
+                      type: 'array',
+                      items: {
+                        $ref: '#/components/schemas/ViewBlogObject'
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            security: [
+              {
+                cookieAuth: []
+              }
+            ]
         }
     },
     '/blog/:blogId': {

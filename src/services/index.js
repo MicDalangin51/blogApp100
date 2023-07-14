@@ -9,6 +9,7 @@ import { createBlogPage } from './blog/create-blog.js';
 import { editBlogPage } from './blog/edit-blog.js';
 import { viewBlogPage } from './blog/view-blog.js';
 import { deleteBlogData } from './blog/delete-blog.js';
+import { listBlogPage } from './blog/list-blog-page.js';
 
 export class Service {
   constructor (app) {
@@ -26,4 +27,5 @@ export class Service {
     editBlogPage = editBlogPage
     viewBlogPage = viewBlogPage
     deleteBlogData = deleteBlogData
+    listBlogPage = listBlogPage
 }
