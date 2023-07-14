@@ -55,9 +55,6 @@ export const schemas = {
         content: {
           type: 'string'
         },
-        isDone: {
-          type: 'boolean'
-        }
       }
   
     },
