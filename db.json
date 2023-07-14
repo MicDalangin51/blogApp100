@@ -27,6 +27,13 @@
       "lastName": "Antetokounmpo",
       "createdDate": 1689255696044,
       "updatedDate": 1689300672804
+    },
+    "dynmrcll": {
+      "hashedPassword": "$2b$10$Ys3/Y9vQ7dBZ/5QHoj0Wr.ARJHhQcxGuyxOMlFjkt4zdU/AeHhfL2",
+      "firstName": "Diana",
+      "lastName": "Collao",
+      "createdDate": 1689302945332,
+      "updatedDate": 1689303067017
     }
   },
   "blogs": {
@@ -53,6 +60,14 @@
       "comments": [],
       "createdDate": 1689300756161,
       "updatedDate": 1689300756161
+    },
+    "7ffde6ff-909c-4052-bf22-7c0dd1553c57": {
+      "title": "College is so very very stressful [edited]",
+      "content": "So I edited this because I did not want to sound so emotional to the public LOL but goodluck to all students working hard to get their degree!",
+      "username": "dynmrcll",
+      "comments": [],
+      "createdDate": 1689303120313,
+      "updatedDate": 1689303313996
     }
   },
   "comments": {}
