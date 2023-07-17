@@ -41,6 +41,13 @@
       "lastName": "Dalangin",
       "createdDate": 1689561413715,
       "updatedDate": 1689561413715
+    },
+    "TheKlaw": {
+      "hashedPassword": "$2b$10$Wo99dR3ZRkXIAE11aIbBsekf/QpDjjaU5CzEgA5rbI7mkfPpn5X3m",
+      "firstName": "Kawhi",
+      "lastName": "Leonard",
+      "createdDate": 1689562410498,
+      "updatedDate": 1689562410498
     }
   },
   "blogs": {
@@ -77,7 +84,9 @@
       "title": "Im not scared of the Celtics",
       "content": "Despite being the #2 seed during the 2022-23 NBA Season, we do not think the Celtics could beat us in a 7-game series in the playoffs. They have no depth after they traded away Marcus Smart and replaced him with Kristaps Porzingis who has no defense.",
       "username": "GreekFreak",
-      "comments": [],
+      "comments": [
+        "dfbbb75c-9b63-4b2a-8955-70ef4d0e2f95"
+      ],
       "createdDate": 1689314728201,
       "updatedDate": 1689314728201
     }
@@ -100,6 +109,12 @@
       "username": "MicMic51",
       "createdDate": 1689562080943,
       "updatedDate": 1689562080943
+    },
+    "dfbbb75c-9b63-4b2a-8955-70ef4d0e2f95": {
+      "content": "We beat you in the 2019 playoffs bud and I'll do it again in the finals.",
+      "username": "TheKlaw",
+      "createdDate": 1689562475832,
+      "updatedDate": 1689562475832
     }
   }
 }
