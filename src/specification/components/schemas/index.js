@@ -193,6 +193,15 @@ export const schemas = {
         'content'
       ]
     },
+    CommentRequestObject: {
+      type: 'object',
+      properties: {
+        content: {
+          type: 'string'
+        }
+      }
+  
+    },
     CommentObject: {
       type: 'object',
       properties: {

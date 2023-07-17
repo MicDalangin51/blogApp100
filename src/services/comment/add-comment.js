@@ -14,9 +14,7 @@ export const addComment = async (request, reply) => {
   if (!username) {
     return reply.badRequest();
   }
-
-  db.blogs[blogId].comments.push(id);
-
+  
   const comment = {
     content,
     username,
@@ -24,7 +22,7 @@ export const addComment = async (request, reply) => {
     updatedDate: new Date().getTime()
   };
 
-  db.comments[id] = comment;
+  db.blogs[blogId].comments[id] = comment;
 
   await saveData(db);
 

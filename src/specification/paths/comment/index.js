@@ -37,5 +37,48 @@ export const comment = {
           }
         ]
       }
+    },
+    '/blog/:blogId/comment/:commentId': {
+      put: {
+        summary: 'Update a comment',
+        operationId: 'updateOwnComment',
+        parameters: [
+          {
+            $ref: '#/components/parameters/BlogParameterId'
+          },
+          {
+  
+            $ref: '#/components/parameters/CommentParameterId'
+          }
+        ],
+        requestBody: {
+          description: 'The request body for comment',
+          content: {
+            'application/json': {
+              schema: {
+                $ref: '#/components/schemas/CommentRequestObject'
+              }
+            }
+          },
+          required: true
+        },
+        responses: {
+          200: {
+            description: 'A comment object',
+            content: {
+              'application/json': {
+                schema: {
+                  $ref: '#/components/schemas/CommentObject'
+                }
+              }
+            }
+          }
+        },
+        security: [
+          {
+            cookieAuth: []
+          }
+        ]
+      }
     }
 };

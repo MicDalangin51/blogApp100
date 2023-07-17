@@ -17,7 +17,7 @@ export const createBlogPage = async (request, reply) => {
     title,
     content,
     username,
-    comments: [],
+    comments: {},
     createdDate: new Date().getTime(),
     updatedDate: new Date().getTime()
   };

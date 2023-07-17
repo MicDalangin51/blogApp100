@@ -16,5 +16,14 @@ export const parameters = {
       schema: {
         type: 'string'
       }
+    },
+    CommentParameterId: {
+      name: 'commentId',
+      in: 'path',
+      required: true,
+      description: 'This is the id of the comment',
+      schema: {
+        type: 'string'
+      }
     }
   };
