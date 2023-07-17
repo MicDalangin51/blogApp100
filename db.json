@@ -55,9 +55,7 @@
       "title": "This is my first blog!",
       "content": "Does anyone want chicken wings?",
       "username": "HotStar68",
-      "comments": [
-        "0b59ca0b-5301-4682-bc11-3168941d32df"
-      ],
+      "comments": {},
       "createdDate": 1689300170763,
       "updatedDate": 1689300170763
     },
@@ -65,10 +63,20 @@
       "title": "College is so very very stressful [edited]",
       "content": "So I edited this because I did not want to sound so emotional to the public LOL but goodluck to all students working hard to get their degree!",
       "username": "dynmrcll",
-      "comments": [
-        "5af82e64-a2af-42ff-8bd1-e0ebb9b04eb0",
-        "6b732b98-c7cf-4e33-a1bf-9d44a47cb7e0"
-      ],
+      "comments": {
+        "e94a181d-8c5e-403d-b4ed-c43978b1f944": {
+          "content": "I got you always hehehe",
+          "username": "MicMic51",
+          "createdDate": 1689572183351,
+          "updatedDate": 1689572183351
+        },
+        "db79f2b6-b262-4286-b7cd-994e5cd5c1b6": {
+          "content": "You can do it! Always remember to take breaks from time to time",
+          "username": "MicMic51",
+          "createdDate": 1689572224528,
+          "updatedDate": 1689572224528
+        }
+      },
       "createdDate": 1689303120313,
       "updatedDate": 1689303313996
     },
@@ -76,7 +84,14 @@
       "title": "Milwaukee is my home",
       "content": "Despite a rough playoffs during the past 2 years, it does not change the fact that the Bucks are my family. We won a championship in 2021 and history could never change that which is why I want to stay and win more with the team",
       "username": "GreekFreak",
-      "comments": [],
+      "comments": {
+        "6ca729e4-402e-404c-9281-e0a4b60a5818": {
+          "content": "Lots of respect to you champ. Go win another title next year 2024",
+          "username": "MicMic51",
+          "createdDate": 1689572316102,
+          "updatedDate": 1689572316102
+        }
+      },
       "createdDate": 1689314642918,
       "updatedDate": 1689314642918
     },
@@ -84,37 +99,9 @@
       "title": "Im not scared of the Celtics",
       "content": "Despite being the #2 seed during the 2022-23 NBA Season, we do not think the Celtics could beat us in a 7-game series in the playoffs. They have no depth after they traded away Marcus Smart and replaced him with Kristaps Porzingis who has no defense.",
       "username": "GreekFreak",
-      "comments": [
-        "dfbbb75c-9b63-4b2a-8955-70ef4d0e2f95"
-      ],
+      "comments": {},
       "createdDate": 1689314728201,
       "updatedDate": 1689314728201
-    }
-  },
-  "comments": {
-    "0b59ca0b-5301-4682-bc11-3168941d32df": {
-      "content": "Hello there!",
-      "username": "GreekFreak",
-      "createdDate": 1689560012927,
-      "updatedDate": 1689560012927
-    },
-    "5af82e64-a2af-42ff-8bd1-e0ebb9b04eb0": {
-      "content": "Got you always hehehe",
-      "username": "MicMic51",
-      "createdDate": 1689561521087,
-      "updatedDate": 1689561521087
-    },
-    "6b732b98-c7cf-4e33-a1bf-9d44a47cb7e0": {
-      "content": "You need help? I can teach you even if I'm not good in Accounting LOL",
-      "username": "MicMic51",
-      "createdDate": 1689562080943,
-      "updatedDate": 1689562080943
-    },
-    "dfbbb75c-9b63-4b2a-8955-70ef4d0e2f95": {
-      "content": "We beat you in the 2019 playoffs bud and I'll do it again in the finals.",
-      "username": "TheKlaw",
-      "createdDate": 1689562475832,
-      "updatedDate": 1689562475832
     }
   }
 }
