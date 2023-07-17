@@ -64,7 +64,7 @@ export const comment = {
         },
         responses: {
           200: {
-            description: 'A Blog object',
+            description: 'A comment object',
             content: {
               'application/json': {
                 schema: {
