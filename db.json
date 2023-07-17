@@ -34,6 +34,13 @@
       "lastName": "Collao",
       "createdDate": 1689302945332,
       "updatedDate": 1689303067017
+    },
+    "MicMic51": {
+      "hashedPassword": "$2b$10$FKMKp1Q8ky.l0vAwPuswGu6FlHDJH8nJur2Qp6oJk0aEY2TNzqgK2",
+      "firstName": "Martin",
+      "lastName": "Dalangin",
+      "createdDate": 1689561413715,
+      "updatedDate": 1689561413715
     }
   },
   "blogs": {
@@ -41,7 +48,9 @@
       "title": "This is my first blog!",
       "content": "Does anyone want chicken wings?",
       "username": "HotStar68",
-      "comments": [],
+      "comments": [
+        "0b59ca0b-5301-4682-bc11-3168941d32df"
+      ],
       "createdDate": 1689300170763,
       "updatedDate": 1689300170763
     },
@@ -49,7 +58,10 @@
       "title": "College is so very very stressful [edited]",
       "content": "So I edited this because I did not want to sound so emotional to the public LOL but goodluck to all students working hard to get their degree!",
       "username": "dynmrcll",
-      "comments": [],
+      "comments": [
+        "5af82e64-a2af-42ff-8bd1-e0ebb9b04eb0",
+        "6b732b98-c7cf-4e33-a1bf-9d44a47cb7e0"
+      ],
       "createdDate": 1689303120313,
       "updatedDate": 1689303313996
     },
@@ -70,5 +82,24 @@
       "updatedDate": 1689314728201
     }
   },
-  "comments": {}
+  "comments": {
+    "0b59ca0b-5301-4682-bc11-3168941d32df": {
+      "content": "Hello there!",
+      "username": "GreekFreak",
+      "createdDate": 1689560012927,
+      "updatedDate": 1689560012927
+    },
+    "5af82e64-a2af-42ff-8bd1-e0ebb9b04eb0": {
+      "content": "Got you always hehehe",
+      "username": "MicMic51",
+      "createdDate": 1689561521087,
+      "updatedDate": 1689561521087
+    },
+    "6b732b98-c7cf-4e33-a1bf-9d44a47cb7e0": {
+      "content": "You need help? I can teach you even if I'm not good in Accounting LOL",
+      "username": "MicMic51",
+      "createdDate": 1689562080943,
+      "updatedDate": 1689562080943
+    }
+  }
 }

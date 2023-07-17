@@ -185,55 +185,29 @@ export const schemas = {
     CommentRequestRequiredObject: {
       type: 'object',
       properties: {
-        message: {
+        content: {
           type: 'string'
-        },
-        username: {
-          type: 'string'
-        },
-        createdDate: {
-          type: 'number'
-        },
-        updatedDate: {
-          type: 'number'
-  
         }
-  
       },
       required: [
-        'message'
+        'content'
       ]
     },
     CommentObject: {
       type: 'object',
       properties: {
-        message: {
-          type: 'string'
-        },
-        title: {
-          type: 'string'
-        },
         content: {
           type: 'string'
         },
         username: {
           type: 'string'
         },
-        comments: {
-          type: 'array',
-          items: {
-            type: 'string'
-          }
-        },
-  
         createdDate: {
           type: 'number'
         },
         updatedDate: {
           type: 'number'
-  
         }
-  
       }
     },
   };
