@@ -12,6 +12,7 @@ import { deleteBlogData } from './blog/delete-blog.js';
 import { listBlogPage } from './blog/list-blog-page.js';
 import { addComment } from './comment/add-comment.js';
 import { updateOwnComment } from './comment/update-comment.js';
+import { deleteOwnComment } from './comment/delete-comment.js';
 
 export class Service {
   constructor (app) {
@@ -32,5 +33,6 @@ export class Service {
     listBlogPage = listBlogPage
     addComment = addComment
     updateOwnComment = updateOwnComment
+    deleteOwnComment = deleteOwnComment
     
 }
