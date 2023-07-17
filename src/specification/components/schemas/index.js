@@ -182,4 +182,32 @@ export const schemas = {
         }
       }
     },
+    CommentRequestRequiredObject: {
+      type: 'object',
+      properties: {
+        content: {
+          type: 'string'
+        }
+      },
+      required: [
+        'content'
+      ]
+    },
+    CommentObject: {
+      type: 'object',
+      properties: {
+        content: {
+          type: 'string'
+        },
+        username: {
+          type: 'string'
+        },
+        createdDate: {
+          type: 'number'
+        },
+        updatedDate: {
+          type: 'number'
+        }
+      }
+    },
   };
