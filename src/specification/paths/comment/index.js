@@ -41,7 +41,7 @@ export const comment = {
     '/blog/:blogId/comment/:commentId': {
       put: {
         summary: 'Update a comment',
-        operationId: 'updateComment',
+        operationId: 'updateOwnComment',
         parameters: [
           {
             $ref: '#/components/parameters/BlogParameterId'
