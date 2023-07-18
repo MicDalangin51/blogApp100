@@ -36,5 +36,5 @@ export class Service {
     updateOwnComment = updateOwnComment
     deleteOwnComment = deleteOwnComment
     authCheck = authCheck
-    
+
 }
