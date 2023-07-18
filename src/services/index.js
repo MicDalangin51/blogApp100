@@ -13,6 +13,7 @@ import { listBlogPage } from './blog/list-blog-page.js';
 import { addComment } from './comment/add-comment.js';
 import { updateOwnComment } from './comment/update-comment.js';
 import { deleteOwnComment } from './comment/delete-comment.js';
+import { authCheck } from './users/auth-check.js';
 
 export class Service {
   constructor (app) {
@@ -34,5 +35,6 @@ export class Service {
     addComment = addComment
     updateOwnComment = updateOwnComment
     deleteOwnComment = deleteOwnComment
-    
+    authCheck = authCheck
+
 }
