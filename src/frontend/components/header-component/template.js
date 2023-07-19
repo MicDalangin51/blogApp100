@@ -8,11 +8,14 @@ export function template () {
     <nav>
     ${this.loggedIn
       ? html`
+        <a href="change-user-data">
+            Change User Data
+        </a>
         <a href="/change-password">
             Change Password
         </a>
         <a href="/logout">
-          Logout
+            Logout
         </a>
       `
       : html`
