@@ -32,26 +32,47 @@ export const routes = {
       () => import('./pages/page-login/index.js')
     ]
   },
-//   '/todos': {
-//     render: () => html`
-//       <page-todos></page-todos>
-//     `,
-//     // runs all scripts, if any one of the functions in the list fails
-//     preRender: [
-//       redirectIfLoggedOut,
-//       () => import('./pages/page-todos/index.js')
-//     ]
-//   },
-//   '/todos/:id': {
-//     render: () => html`
-//       <page-todo-one .paramObject=${router.paramObject}></page-todo-one>
-//     `,
-//     // runs all scripts, if any one of the functions in the list fails
-//     preRender: [
-//       redirectIfLoggedOut,
-//       () => import('./pages/page-todo-one/index.js')
-//     ]
-//   },
+  '/user': {
+    render: () => html`
+      <page-register></page-register>
+    `,
+    // runs all scripts, if any one of the functions in the list fails
+    preRender: [
+      redirectIfLoggedIn,
+      () => import('./pages/page-register/index.js')
+    ]
+  },
+  '/change-password': {
+    render: () => html`
+      <page-change-password></page-change-password>
+    `,
+    // runs all scripts, if any one of the functions in the list fails
+    preRender: [
+      redirectIfLoggedIn,
+      () => import('./pages/page-change-password/index.js')
+    ]
+  },
+  '/user': {
+    render: () => html`
+      <page-users></page-users>
+    `,
+    // runs all scripts, if any one of the functions in the list fails
+    preRender: [
+      redirectIfLoggedOut,
+      () => import('./pages/page-get-user/index.js')
+    ]
+  },
+
+  '/change-user-data': {
+    render: () => html`
+      <page-change-user-data></page-change-user-data>
+    `,
+    // runs all scripts, if any one of the functions in the list fails
+    preRender: [
+      redirectIfLoggedIn,
+      () => import('./pages/page-change-user-data/index.js')
+    ]
+  },
   '/logout': {
     render: () => html`
       <page-logout></page-logout>
