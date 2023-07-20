@@ -70,7 +70,7 @@ export const routes = {
     // runs all scripts, if any one of the functions in the list fails
     preRender: [
       redirectIfLoggedIn,
-      () => import('./pages/page-change-user-data/index.js')
+      () => import('./pages/user-data-pages/page-change-user-data/index.js')
     ]
   },
   '/logout': {
