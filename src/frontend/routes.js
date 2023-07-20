@@ -93,4 +93,14 @@ export const routes = {
       () => import('./pages/blog-pages/page-list/index.js')
     ]
   },
+  '/blog/:id': {
+    render: () => html`
+      <page-view-blog .paramObject=${router.paramObject}></page-view-blog>
+    `,
+    // runs all scripts, if any one of the functions in the list fails
+    preRender: [
+      redirectIfLoggedOut,
+      () => import('./pages/blog-pages/page-view-blog/index.js')
+    ]
+  },
 }; 

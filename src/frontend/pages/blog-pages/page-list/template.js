@@ -4,12 +4,12 @@ import '../../../components/blog-components/blog-component/index.js';
 export function template () {
   return html`
     <style>
-      .todo {
+      .blog {
         display: flex;
         align-items: center;
         padding: 12px;
       }
-      .todo * {
+      .blog * {
         flex: 1;
       }
     </style>
@@ -24,10 +24,10 @@ export function template () {
         </div>
       `
       : ''}
-    <div class="todo-list">
+    <div class="blog-list">
       ${this.blogs.map(blog => html`
-        <div class="todo">
-          <a href="/todos/${blog.id}">
+        <div class="blog">
+          <a href="/blog/${blog.id}">
             <div> ${blog.title}</div>
             <div> ${new Date(blog.createdDate).toDateString()}</div>
           </a>

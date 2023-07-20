@@ -4,12 +4,12 @@ import { html } from 'lit';
 export function template () {
   return html`
     <style>
-      .todo {
+      .blog {
         display: flex;
         align-items: center;
         padding: 12px;
       }
-      .todo * {
+      .blog * {
         flex: 1;
       }
     </style>
