@@ -20,7 +20,7 @@ export const routes = {
       <page-home></page-home>
     `,
     // lazy-loads the page when the URL pattern is visited
-    preRender: () => import('./pages/page-home/index.js')
+    preRender: () => import('./pages/user-data-pages/page-home/index.js')
   },
   '/login': {
     render: () => html`
@@ -29,7 +29,7 @@ export const routes = {
     // runs all scripts, if any one of the functions in the list fails
     preRender: [
       redirectIfLoggedIn,
-      () => import('./pages/page-login/index.js')
+      () => import('./pages/user-data-pages/page-login/index.js')
     ]
   },
   '/user': {
@@ -39,7 +39,7 @@ export const routes = {
     // runs all scripts, if any one of the functions in the list fails
     preRender: [
       redirectIfLoggedIn,
-      () => import('./pages/page-register/index.js')
+      () => import('./pages/user-data-pages/page-register/index.js')
     ]
   },
   '/change-password': {
@@ -49,7 +49,7 @@ export const routes = {
     // runs all scripts, if any one of the functions in the list fails
     preRender: [
       redirectIfLoggedIn,
-      () => import('./pages/page-change-password/index.js')
+      () => import('./pages/user-data-pages/page-change-password/index.js')
     ]
   },
   '/user': {
@@ -59,7 +59,7 @@ export const routes = {
     // runs all scripts, if any one of the functions in the list fails
     preRender: [
       redirectIfLoggedOut,
-      () => import('./pages/page-get-user/index.js')
+      () => import('./pages/user-data-pages/page-get-user/index.js')
     ]
   },
 
@@ -80,7 +80,7 @@ export const routes = {
     // runs all scripts, if any one of the functions in the list fails
     preRender: [
       redirectIfLoggedOut,
-      () => import('./pages/page-logout/index.js')
+      () => import('./pages/user-data-pages/page-logout/index.js')
     ]
   }
 }; 

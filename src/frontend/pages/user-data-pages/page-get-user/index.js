@@ -1,7 +1,7 @@
 import { customElement, property } from 'lit/decorators.js';
-import { state } from '../../worker/index.js';
+import { state } from '../../../worker/index.js';
 
-import { LitPage } from '../../utils/lit-page/index.js';
+import { LitPage } from '../../../utils/lit-page/index.js';
 import { template } from './template.js';
 
 /**
