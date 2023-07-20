@@ -19,12 +19,14 @@ module.exports = function () {
           // copies static images to the public images folder
           {
             from: 'src/images',
-            to: 'src/public/images'
+            to: 'src/public/images',
+            noErrorOnMissing: true
           },
           // copies static css to the public css folder
           {
             from: 'src/css',
-            to: 'src/public/css'
+            to: 'src/public/css',
+            noErrorOnMissing: true
           }
         ]
       }),

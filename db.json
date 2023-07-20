@@ -48,6 +48,13 @@
       "lastName": "Leonard",
       "createdDate": 1689562410498,
       "updatedDate": 1689562410498
+    },
+    "NewUser78": {
+      "hashedPassword": "$2b$10$iyYGO.v2GbN8bYd0OcRA3OVa8EoarvLtTEiUQjF9SLvfdD2lv6Iny",
+      "firstName": "New",
+      "lastName": "User",
+      "createdDate": 1689833016006,
+      "updatedDate": 1689833016006
     }
   },
   "blogs": {
