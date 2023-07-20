@@ -1,5 +1,5 @@
 import { html } from 'lit';
-// import '../../components/todo-component/index.js';
+import '../../../components/blog-components/blog-component/index.js';
 
 export function template () {
   return html`
@@ -28,23 +28,23 @@ export function template () {
       
       <div> <h5> Created on ${new Date(this.blog.createdDate).toDateString()}| </h5></div>
       <div> <h5>Last updated on ${new Date( this.blog.updatedDate).toDateString()}</h5></div>
-      <button onclick = ${this.editBlog}}> Edit </button> 
+      <button @click="${this.editBlog}"> Edit </button>
       <button> Delete </button> 
       ${this.isEditing?  html`
-         <blog-component @submit-blog="${this.updateTodo} .blog="${this.blog}"></blog-component>
+         <blog-component @submit-blog="${this.editBlogPage} .blog="${this.blog}"></blog-component>
         `
           :''
       }
       
     
-      ${this.blog.comments.map(comment =>{
+      ${ !this.isEditing ?   this.blog.comments.map(comment =>{
         return html`
         <h4>${comment.message}</h4>
         <h5>${comment.username}</h5>
         <h6>${comment.createdDate}</h6>
         <h6>${comment.updatedDate}</h6>
         `
-      })}
+    }): ''}
       <button> Comment </button> 
     
     `: ''}
@@ -52,5 +52,3 @@ export function template () {
     
   `;
 }
-
-{/* <todo-component @submit-todo="${this.updateTodo}" .todo="${this.todo}"></todo-component> */}
