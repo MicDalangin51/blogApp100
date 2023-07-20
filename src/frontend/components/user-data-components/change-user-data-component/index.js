@@ -1,7 +1,7 @@
 import { customElement, property } from 'lit/decorators.js';
-import { LitNoShadow } from '../../utils/lit-no-shadow/index.js';
-import { changeUrl } from '../../utils/helpers/change-url.js';
-import { state } from '../../worker/index.js';
+import { LitNoShadow } from '../../../utils/lit-no-shadow/index.js';
+import { changeUrl } from '../../../utils/helpers/change-url.js';
+import { state } from '../../../worker/index.js';
 import { template } from './template.js';
 
 /**

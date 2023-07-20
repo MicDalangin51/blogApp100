@@ -1,5 +1,5 @@
 import { customElement } from 'lit/decorators.js';
-import { LitPage } from '../../utils/lit-page/index.js';
+import { LitPage } from '../../../utils/lit-page/index.js';
 import { template } from './template.js';
 
 /**
