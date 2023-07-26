@@ -7,7 +7,7 @@ import { template } from './template.js';
 /**
  * @type {LitPage}
  */
-@customElement('page-todo-one')
+@customElement('page-view-blog')
 class Page extends LitPage {
   @property({ type: Object })
   blog = {}

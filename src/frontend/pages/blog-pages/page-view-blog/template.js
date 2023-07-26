@@ -2,6 +2,7 @@ import { html } from 'lit';
 import '../../../components/blog-components/blog-component/index.js';
 
 export function template () {
+  console.log("look")
   return html`
     <style>
       .todo {
@@ -35,16 +36,18 @@ export function template () {
         `
           :''
       }
+
+      
       
     
-      ${ !this.isEditing ?   this.blog.comments.map(comment =>{
+      ${ !this.isEditing ?   Object.keys(this.blog.comments).forEach(function(key, index) {
         return html`
-        <h4>${comment.message}</h4>
-        <h5>${comment.username}</h5>
-        <h6>${comment.createdDate}</h6>
-        <h6>${comment.updatedDate}</h6>
+        <h4>${this.blog.comments[key].content}</h4>
+        <h5>${this.blog.comments[key].username}</h5>
+        <h6>${this.blog.comments[key].createdDate}</h6>
+        <h6>${this.blog.comments[key].updatedDate}</h6>
         `
-    }): ''}
+      }): ''}
       <button> Comment </button> 
     
     `: ''}
