@@ -2,10 +2,10 @@
   "users": {
     "MICD33333": {
       "hashedPassword": "$2b$10$o0jbkjSPULg4nIkx90FYku2abmZuWS6Vk1bG83sOq4Kn4nah5Eqvm",
-      "firstname": "Mic",
-      "lastname": "Cortes",
-      "createdDate": 1673452042547,
-      "updatedDate": 1673452042547
+      "firstName": "Mic",
+      "lastName": "Cortes",
+      "createdDate": 1689227986536,
+      "updatedDate": 1689227986536
     },
     "Mart51": {
       "hashedPassword": "$2b$10$itxZr/mkClqLn2Hb1GYHoeQ8Ok1NPPlaBt48VBvwShepelzxoH/tK",
@@ -23,10 +23,10 @@
     },
     "GreekFreak": {
       "hashedPassword": "$2b$10$mbWGUZ/r0gVb8AE3Vi8sO.0UU/1kFpbWnpjMa7k057Rl60/hmlRv.",
-      "firstName": "Giannis",
-      "lastName": "Antetokounmpo",
+      "firstName": "Gia",
+      "lastName": "Anteto",
       "createdDate": 1689255696044,
-      "updatedDate": 1689300672804
+      "updatedDate": 1690352028913
     },
     "dynmrcll": {
       "hashedPassword": "$2b$10$Ys3/Y9vQ7dBZ/5QHoj0Wr.ARJHhQcxGuyxOMlFjkt4zdU/AeHhfL2",
@@ -186,6 +186,30 @@
       "comments": {},
       "createdDate": 1690348838322,
       "updatedDate": 1690348838322
+    },
+    "15ed75b8-2057-4743-b596-6cd1f7af9a46": {
+      "title": "Hello",
+      "content": "Test blog",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690351993509,
+      "updatedDate": 1690351993509
+    },
+    "ce646090-6e06-47e6-aa82-dab71f1a734d": {
+      "title": "New blog",
+      "content": "First blog with edited name",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690352044721,
+      "updatedDate": 1690352044721
+    },
+    "9a977756-5941-4a74-9bff-b94cc56572f1": {
+      "title": "Diana's blog",
+      "content": "This is a new blog that I created just today!",
+      "username": "dynmrcll",
+      "comments": {},
+      "createdDate": 1690354744319,
+      "updatedDate": 1690354744319
     }
   }
 }
