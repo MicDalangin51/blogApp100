@@ -20,7 +20,7 @@ class Page extends LitPage {
     return template.bind(this)();
   }
 
-  async getUserData(event){
+  async seeUserData(event){
     event.preventDefault();
     // gets the event.target and change the variable name to form
     const { target: form } = event;

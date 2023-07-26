@@ -24,7 +24,7 @@ export function template () {
       : ''}
       ${Object.keys(this.blog).length ? html`
       <h2>${this.blog.title}</h2>
-      <h3>${this.blog.description}</h3>
+      <h3>${this.blog.content}</h3>
       
       <div> <h5> Created on ${new Date(this.blog.createdDate).toDateString()}| </h5></div>
       <div> <h5>Last updated on ${new Date( this.blog.updatedDate).toDateString()}</h5></div>

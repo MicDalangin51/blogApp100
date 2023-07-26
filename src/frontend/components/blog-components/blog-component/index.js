@@ -21,7 +21,7 @@ class Page extends LitNoShadow {
 
     const detail = {
       title: form.title.value,
-      description: form.description.value,
+      content: form.content.value,
 
     };
 

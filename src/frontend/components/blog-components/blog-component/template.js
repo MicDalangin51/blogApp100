@@ -33,7 +33,7 @@ export function template () {
         <label for="description">
           Text:
         </label>
-        <input type="text" placeholder="description" id="description" name="description" value="${this.blog?.description}" required>
+        <input type="text" placeholder="content" id="content" name="content" value="${this.blog?.content}" required>
       </div>
       <div class="flex-group">
         <button>
