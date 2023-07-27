@@ -73,7 +73,7 @@ export const schemas = {
                 type: 'string'
   
               },
-              message: {
+              content: {
                 type: 'string'
               },
               username: {

@@ -2,10 +2,10 @@
   "users": {
     "MICD33333": {
       "hashedPassword": "$2b$10$o0jbkjSPULg4nIkx90FYku2abmZuWS6Vk1bG83sOq4Kn4nah5Eqvm",
-      "firstname": "Mic",
-      "lastname": "Cortes",
-      "createdDate": 1673452042547,
-      "updatedDate": 1673452042547
+      "firstName": "Mic",
+      "lastName": "Cortes",
+      "createdDate": 1689227986536,
+      "updatedDate": 1689227986536
     },
     "Mart51": {
       "hashedPassword": "$2b$10$itxZr/mkClqLn2Hb1GYHoeQ8Ok1NPPlaBt48VBvwShepelzxoH/tK",
@@ -22,11 +22,11 @@
       "updatedDate": 1689257993403
     },
     "GreekFreak": {
-      "hashedPassword": "$2b$10$mbWGUZ/r0gVb8AE3Vi8sO.0UU/1kFpbWnpjMa7k057Rl60/hmlRv.",
-      "firstName": "Giannis",
-      "lastName": "Antetokounmpo",
+      "hashedPassword": "$2b$10$il1LcRa5U/ERKY9V2P3IeeyetEmz1WDrSfE1iSPjVNaSMw1ov.WT2",
+      "firstName": "Gia",
+      "lastName": "Anteto",
       "createdDate": 1689255696044,
-      "updatedDate": 1689300672804
+      "updatedDate": 1690352028913
     },
     "dynmrcll": {
       "hashedPassword": "$2b$10$Ys3/Y9vQ7dBZ/5QHoj0Wr.ARJHhQcxGuyxOMlFjkt4zdU/AeHhfL2",
@@ -48,6 +48,13 @@
       "lastName": "Leonard",
       "createdDate": 1689562410498,
       "updatedDate": 1689562410498
+    },
+    "NewUser78": {
+      "hashedPassword": "$2b$10$iyYGO.v2GbN8bYd0OcRA3OVa8EoarvLtTEiUQjF9SLvfdD2lv6Iny",
+      "firstName": "New",
+      "lastName": "User",
+      "createdDate": 1689833016006,
+      "updatedDate": 1689833016006
     }
   },
   "blogs": {
@@ -107,6 +114,164 @@
       "comments": {},
       "createdDate": 1689314728201,
       "updatedDate": 1689314728201
+    },
+    "b13b4f76-5c58-48f6-8e48-0e6c764a902f": {
+      "title": "Its been raining",
+      "content": "Given that we have already a=entered rainy season. How long will the rain last?",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690253672962,
+      "updatedDate": 1690253672962
+    },
+    "f08beda8-5bc8-4390-901c-7f04a4ae335a": {
+      "title": "Its been raining in Manila",
+      "content": "Given that we have already a=entered rainy season. How long will the rain last?",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690254017750,
+      "updatedDate": 1690254017750
+    },
+    "061433ae-95e0-4b93-b8dd-6fe7f3607643": {
+      "title": "Its been raining in Laguna",
+      "content": "Given that we have already a=entered rainy season. How long will the rain last?",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690254360553,
+      "updatedDate": 1690254360553
+    },
+    "a109c2ef-bf02-4044-bcd1-87f5f3c6cf06": {
+      "title": "New blog",
+      "content": "Hiii",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690340117997,
+      "updatedDate": 1690340117997
+    },
+    "1ba0e328-8392-4b25-af16-6c6a4b64e263": {
+      "title": "Test",
+      "content": "Hiii",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690340129143,
+      "updatedDate": 1690340129143
+    },
+    "59ec18bb-1974-4732-8c53-378ac740bbcd": {
+      "title": "Raining",
+      "content": "Test blog",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690340341172,
+      "updatedDate": 1690340341172
+    },
+    "f8c3d17d-b460-4f26-86d3-3ead40cff432": {
+      "title": "Brrownout",
+      "content": "Sample",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690348822567,
+      "updatedDate": 1690348822567
+    },
+    "15ed75b8-2057-4743-b596-6cd1f7af9a46": {
+      "title": "Hello",
+      "content": "Test blog",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690351993509,
+      "updatedDate": 1690351993509
+    },
+    "ce646090-6e06-47e6-aa82-dab71f1a734d": {
+      "title": "New blog",
+      "content": "First blog with edited name",
+      "username": "GreekFreak",
+      "comments": {
+        "32269152-e50d-41e4-aa1a-282d43bdcda0": {
+          "content": "Leaving a comment here",
+          "username": "MicMic51",
+          "createdDate": 1690435014729,
+          "updatedDate": 1690435014729
+        }
+      },
+      "createdDate": 1690352044721,
+      "updatedDate": 1690352044721
+    },
+    "9a977756-5941-4a74-9bff-b94cc56572f1": {
+      "title": "Diana's blog",
+      "content": "This is a new blog that I created just today!",
+      "username": "dynmrcll",
+      "comments": {},
+      "createdDate": 1690354744319,
+      "updatedDate": 1690354744319
+    },
+    "1833d061-44b1-4855-80a9-e95ebe5ab034": {
+      "title": "Martin's Blog",
+      "content": "Hello this is new",
+      "username": "MicMic51",
+      "comments": {},
+      "createdDate": 1690362189579,
+      "updatedDate": 1690362189579
+    },
+    "dafe7f44-6cdc-4d2d-8684-dbe4439c3c16": {
+      "title": "Giannis's New Blog",
+      "content": "This is an edited new blog that I created just today!",
+      "username": "GreekFreak",
+      "comments": {
+        "f51d8421-6707-4bab-a35f-91ce9bfe5d61": {
+          "content": "This is a comment",
+          "username": "GreekFreak",
+          "createdDate": 1690420918268,
+          "updatedDate": 1690420918268
+        },
+        "34c6771e-3be6-41bd-94e2-01deb76e394e": {
+          "content": "Samp",
+          "username": "GreekFreak",
+          "createdDate": 1690422085566,
+          "updatedDate": 1690422085566
+        },
+        "6c544105-d175-4741-be60-222c67290828": {
+          "content": "Samp",
+          "username": "GreekFreak",
+          "createdDate": 1690422484900,
+          "updatedDate": 1690422484900
+        },
+        "8d73336f-e592-47f2-8475-3c3ee0a6c9ea": {
+          "content": "Samp2",
+          "username": "GreekFreak",
+          "createdDate": 1690422504080,
+          "updatedDate": 1690422504080
+        },
+        "4758bdc7-901a-466d-b8b0-96f1d4198b90": {
+          "content": "Hello this is another comment",
+          "username": "GreekFreak",
+          "createdDate": 1690422754381,
+          "updatedDate": 1690422754381
+        },
+        "69f97277-ff5f-4e71-b098-84f42e42aec9": {
+          "content": "Hello this is another comment",
+          "username": "GreekFreak",
+          "createdDate": 1690432946234,
+          "updatedDate": 1690432946234
+        },
+        "7727c983-c163-432a-bfdf-31d2d89de40c": {
+          "content": "Hello this is another another comment",
+          "username": "GreekFreak",
+          "createdDate": 1690432956232,
+          "updatedDate": 1690432956232
+        },
+        "d2614d4a-3141-4143-b564-28207bbc87f3": {
+          "content": "Hello this is a comment",
+          "username": "GreekFreak",
+          "createdDate": 1690434432929,
+          "updatedDate": 1690434432929
+        },
+        "01b1b9e4-9d8c-487d-9c87-3783e4d3199c": {
+          "content": "Lezgo champ",
+          "username": "MicMic51",
+          "createdDate": 1690434641812,
+          "updatedDate": 1690434641812
+        }
+      },
+      "createdDate": 1690413511654,
+      "updatedDate": 1690417372387
     }
   }
 }

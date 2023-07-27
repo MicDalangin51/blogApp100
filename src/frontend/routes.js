@@ -32,7 +32,7 @@ export const routes = {
       () => import('./pages/user-data-pages/page-login/index.js')
     ]
   },
-  '/user': {
+  '/register': {
     render: () => html`
       <page-register></page-register>
     `,
@@ -70,7 +70,7 @@ export const routes = {
     // runs all scripts, if any one of the functions in the list fails
     preRender: [
       redirectIfLoggedIn,
-      () => import('./pages/page-change-user-data/index.js')
+      () => import('./pages/user-data-pages/page-change-user-data/index.js')
     ]
   },
   '/logout': {
@@ -82,5 +82,25 @@ export const routes = {
       redirectIfLoggedOut,
       () => import('./pages/user-data-pages/page-logout/index.js')
     ]
-  }
+  },
+  '/blog': {
+    render: () => html`
+      <page-blogs></page-blogs>
+    `,
+    // runs all scripts, if any one of the functions in the list fails
+    preRender: [
+      redirectIfLoggedOut,
+      () => import('./pages/blog-pages/page-list/index.js')
+    ]
+  },
+  '/blog/:id': {
+    render: () => html`
+      <page-view-blog .paramObject=${router.paramObject}></page-view-blog>
+    `,
+    // runs all scripts, if any one of the functions in the list fails
+    preRender: [
+      redirectIfLoggedOut,
+      () => import('./pages/blog-pages/page-view-blog/index.js')
+    ]
+  },
 }; 

@@ -34,7 +34,7 @@ export const user = {
         }
     },
     '/logout': {
-        post: {
+        get: {
           summary: 'Logout a user',
           operationId: 'logoutUser',
           responses: {

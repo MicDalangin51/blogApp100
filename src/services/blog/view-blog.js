@@ -17,8 +17,21 @@ export const viewBlogPage = async (request, reply) => {
     return reply.notFound();
   }
 
+  const selectedBlog = blogs[id];
+  const comm = Object
+    .entries(selectedBlog.comments)
+    .map(function ([id, comment]) {
+      return {
+        id,
+        ...comment
+      };
+    });
+
+
+  selectedBlog.comments = comm;
+
   return {
     id,
-    ...blogs[id]
+    ...selectedBlog
   };
 };
