@@ -20,7 +20,7 @@ export const blog = {
               content: {
                 'application/json': {
                   schema: {
-                    $ref: '#/components/schemas/ViewBlogObject'
+                    $ref: '#/components/schemas/BlogObject'
                   }
                 }
               }

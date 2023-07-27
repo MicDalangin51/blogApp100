@@ -268,10 +268,130 @@
           "username": "MicMic51",
           "createdDate": 1690434641812,
           "updatedDate": 1690434641812
+        },
+        "505d68ff-2858-400a-9e1c-96f4068a7392": {
+          "content": "Trying this out right here",
+          "username": "MicMic51",
+          "createdDate": 1690439769807,
+          "updatedDate": 1690439769807
+        },
+        "8f7875fe-804a-4df1-81ca-b9fd9c6850b6": {
+          "content": "Anoter test",
+          "username": "MicMic51",
+          "createdDate": 1690439833275,
+          "updatedDate": 1690439833275
         }
       },
       "createdDate": 1690413511654,
       "updatedDate": 1690417372387
+    },
+    "02b55f48-0a86-4b3b-babc-c6be40016801": {
+      "title": "Test blog",
+      "content": "This is a new blog that I created just today!",
+      "username": "MicMic51",
+      "comments": {
+        "6c75270e-3657-42b2-baec-8ae64b526772": {
+          "content": "This is a test",
+          "username": "MicMic51",
+          "createdDate": 1690439847792,
+          "updatedDate": 1690439847792
+        }
+      },
+      "createdDate": 1690439534605,
+      "updatedDate": 1690439534605
+    },
+    "2ec5ca53-3716-49bd-8108-ca198ff574aa": {
+      "title": "New Test",
+      "content": "First blog with edited name",
+      "username": "MicMic51",
+      "comments": {},
+      "createdDate": 1690442350965,
+      "updatedDate": 1690442350965
+    },
+    "f9ba2d5d-6256-4517-bbe1-fad1ab73d27f": {
+      "title": "New blog 2",
+      "content": "Sample",
+      "username": "MicMic51",
+      "comments": {
+        "a80813e7-dfd5-4204-8278-a772e57e537e": {
+          "content": "Hello this is a comment",
+          "username": "MicMic51",
+          "createdDate": 1690442562003,
+          "updatedDate": 1690442562003
+        },
+        "c480617a-6986-4c36-95af-a89e1e025064": {
+          "content": "Hello this is a comment",
+          "username": "MicMic51",
+          "createdDate": 1690443256582,
+          "updatedDate": 1690443256582
+        }
+      },
+      "createdDate": 1690442464229,
+      "updatedDate": 1690442464229
+    },
+    "274b1b71-a580-497e-a576-144dbdd2caaa": {
+      "title": "New Blog 3",
+      "content": "This is also a new blog that I created on my new account!",
+      "username": "MicMic51",
+      "comments": {},
+      "createdDate": 1690445722011,
+      "updatedDate": 1690445722011
+    },
+    "c1a70d4b-d1ab-4fbc-87f5-3befb2e4b1c9": {
+      "title": "New Blog 4",
+      "content": "Hi! This is another new blog",
+      "username": "MicMic51",
+      "comments": {},
+      "createdDate": 1690445833020,
+      "updatedDate": 1690445833020
+    },
+    "f0f95836-89b7-4dd5-a39d-c2de038ae34d": {
+      "title": "New Blog 5",
+      "content": "Hi! This is another new blog",
+      "username": "MicMic51",
+      "comments": {},
+      "createdDate": 1690445889123,
+      "updatedDate": 1690445889123
+    },
+    "7c4f3a28-4332-40f7-a10b-e7c429b6db56": {
+      "title": "New Blog 6",
+      "content": "This is also a new blog that I created on my new account!",
+      "username": "MicMic51",
+      "comments": {},
+      "createdDate": 1690446534440,
+      "updatedDate": 1690446534440
+    },
+    "e17a1b47-401e-4ca9-ad19-2eb1444ea221": {
+      "title": "New Blog 7",
+      "content": "Hi! This is another new blog",
+      "username": "MicMic51",
+      "comments": {},
+      "createdDate": 1690446552621,
+      "updatedDate": 1690446552621
+    },
+    "d861ca37-7847-4729-b7b1-1d9666a715f7": {
+      "title": "New Blog 9",
+      "content": "This is the 9th test blog",
+      "username": "MicMic51",
+      "comments": {},
+      "createdDate": 1690446983519,
+      "updatedDate": 1690446983519
+    },
+    "41a56283-63bd-4e4e-bfd3-cd35f2b28a4b": {
+      "title": "New Blog 10",
+      "content": "This is also a new blog that I created on my new account!",
+      "username": "MicMic51",
+      "comments": {},
+      "createdDate": 1690447001193,
+      "updatedDate": 1690447001193
+    },
+    "171c04a4-2469-4344-8ca0-e8c5a20ddec8": {
+      "title": "New Blog 11",
+      "content": "Finally this works huhuhu",
+      "username": "MicMic51",
+      "comments": {},
+      "createdDate": 1690447029632,
+      "updatedDate": 1690447029632
     }
   }
 }
