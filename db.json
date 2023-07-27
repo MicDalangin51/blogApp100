@@ -22,7 +22,7 @@
       "updatedDate": 1689257993403
     },
     "GreekFreak": {
-      "hashedPassword": "$2b$10$mbWGUZ/r0gVb8AE3Vi8sO.0UU/1kFpbWnpjMa7k057Rl60/hmlRv.",
+      "hashedPassword": "$2b$10$il1LcRa5U/ERKY9V2P3IeeyetEmz1WDrSfE1iSPjVNaSMw1ov.WT2",
       "firstName": "Gia",
       "lastName": "Anteto",
       "createdDate": 1689255696044,
@@ -207,7 +207,32 @@
       "title": "Giannis's New Blog",
       "content": "This is an edited new blog that I created just today!",
       "username": "GreekFreak",
-      "comments": {},
+      "comments": {
+        "f51d8421-6707-4bab-a35f-91ce9bfe5d61": {
+          "content": "This is a comment",
+          "username": "GreekFreak",
+          "createdDate": 1690420918268,
+          "updatedDate": 1690420918268
+        },
+        "34c6771e-3be6-41bd-94e2-01deb76e394e": {
+          "content": "Samp",
+          "username": "GreekFreak",
+          "createdDate": 1690422085566,
+          "updatedDate": 1690422085566
+        },
+        "6c544105-d175-4741-be60-222c67290828": {
+          "content": "Samp",
+          "username": "GreekFreak",
+          "createdDate": 1690422484900,
+          "updatedDate": 1690422484900
+        },
+        "8d73336f-e592-47f2-8475-3c3ee0a6c9ea": {
+          "content": "Samp2",
+          "username": "GreekFreak",
+          "createdDate": 1690422504080,
+          "updatedDate": 1690422504080
+        }
+      },
       "createdDate": 1690413511654,
       "updatedDate": 1690417372387
     }

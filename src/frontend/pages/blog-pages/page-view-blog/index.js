@@ -12,6 +12,9 @@ class Page extends LitPage {
   @property({ type: Object })
   blog = {}
 
+  @property({ type: Array })
+  comments = []
+
   @property({ type: Boolean })
   isEditing= false;
 
@@ -42,7 +45,7 @@ class Page extends LitPage {
         return this.setErrorMessage(await response.json(), response.status);
       } else {
         this.blog = await response.json();
-        console.log(this.blog);
+        // this.comments = this.blog.comments
       }
     } catch (error) {
       return this.setErrorMessage(error, 404);
@@ -94,6 +97,32 @@ class Page extends LitPage {
       return this.setErrorMessage(error, 404);
     }
   }
+
+  async createComment (event) {
+    event.preventDefault();
+    console.log(event);
+    // we get the data from the detail being sent by the todo-component
+    const { detail } = event;
+
+    const response = await window.fetch(`/api/blog/${this.blog.id}/comment`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({content: detail.message})
+    });
+    try {
+      const data = await response.json();
+      // appends the new object
+      this.blog.comments = [
+        data,
+        ...this.comments
+      ];
+    } catch (error) {
+      return this.setErrorMessage(error, 404);
+    }
+  }
+
   
   async setErrorMessage (data, status) {
     const { message, error } = data;

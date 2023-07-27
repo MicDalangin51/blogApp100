@@ -1,5 +1,6 @@
 import { html } from 'lit';
 import '../../../components/blog-components/blog-component/index.js';
+import '../../../components/comment-components/comment-component/index.js';
 
 export function template () {
   console.log("look")
@@ -46,8 +47,18 @@ export function template () {
         <h5>${this.blog.comments[key].username}</h5>
         <h6>${this.blog.comments[key].createdDate}</h6>
         <h6>${this.blog.comments[key].updatedDate}</h6>
+        <button @click="${this.editComment}"> Edit </button> 
+        <button @click=> Delete </button> 
+
+        ${this.isEditingComment ?  html`
+        <comment-component @submit-comment="${this.updateComment}" .comment="${comment}"></comment-component>
+       `
+         :''}
         `
       }): ''}
+
+
+      <comment-component @submit-comment="${this.createComment}"   .comment = "${this.blog}" ></comment-component>
       <button> Comment </button> 
     
     `: ''}
