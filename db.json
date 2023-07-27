@@ -389,7 +389,26 @@
       "title": "New Blog 11",
       "content": "Finally this works huhuhu",
       "username": "MicMic51",
-      "comments": {},
+      "comments": {
+        "cb739caa-1cb0-40b1-921b-9a714fc1bbd5": {
+          "content": "Hello this is a comment",
+          "username": "MicMic51",
+          "createdDate": 1690447639649,
+          "updatedDate": 1690447639649
+        },
+        "c28bef5c-2091-4572-b734-134e8d6051cf": {
+          "content": "Hello this is another comment",
+          "username": "MicMic51",
+          "createdDate": 1690447759534,
+          "updatedDate": 1690447759534
+        },
+        "89d4a65a-a4b2-4f5e-b19a-9de477fb878d": {
+          "content": "Samp",
+          "username": "MicMic51",
+          "createdDate": 1690448108043,
+          "updatedDate": 1690448108043
+        }
+      },
       "createdDate": 1690447029632,
       "updatedDate": 1690447029632
     }

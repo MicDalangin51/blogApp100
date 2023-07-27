@@ -43,10 +43,11 @@ export function template () {
     
       ${ !this.isEditing ?   this.comments.map(comment =>{
         return html`
+        <br><br>
         <h4>${comment.content}</h4>
         <h5>${comment.username}</h5>
-        <h6>${comment.createdDate}</h6>
-        <h6>${comment.updatedDate}</h6>
+        <h6> Written last ${new Date(comment.createdDate).toDateString()}</h6>
+        <h6> Last Updated ${new Date(comment.updatedDate).toDateString()}</h6>
 
         <button @click="${this.editComment}"> Edit </button> 
         <button @click=> Delete </button> 
