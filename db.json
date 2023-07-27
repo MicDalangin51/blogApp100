@@ -183,7 +183,14 @@
       "title": "New blog",
       "content": "First blog with edited name",
       "username": "GreekFreak",
-      "comments": {},
+      "comments": {
+        "32269152-e50d-41e4-aa1a-282d43bdcda0": {
+          "content": "Leaving a comment here",
+          "username": "MicMic51",
+          "createdDate": 1690435014729,
+          "updatedDate": 1690435014729
+        }
+      },
       "createdDate": 1690352044721,
       "updatedDate": 1690352044721
     },
@@ -231,6 +238,36 @@
           "username": "GreekFreak",
           "createdDate": 1690422504080,
           "updatedDate": 1690422504080
+        },
+        "4758bdc7-901a-466d-b8b0-96f1d4198b90": {
+          "content": "Hello this is another comment",
+          "username": "GreekFreak",
+          "createdDate": 1690422754381,
+          "updatedDate": 1690422754381
+        },
+        "69f97277-ff5f-4e71-b098-84f42e42aec9": {
+          "content": "Hello this is another comment",
+          "username": "GreekFreak",
+          "createdDate": 1690432946234,
+          "updatedDate": 1690432946234
+        },
+        "7727c983-c163-432a-bfdf-31d2d89de40c": {
+          "content": "Hello this is another another comment",
+          "username": "GreekFreak",
+          "createdDate": 1690432956232,
+          "updatedDate": 1690432956232
+        },
+        "d2614d4a-3141-4143-b564-28207bbc87f3": {
+          "content": "Hello this is a comment",
+          "username": "GreekFreak",
+          "createdDate": 1690434432929,
+          "updatedDate": 1690434432929
+        },
+        "01b1b9e4-9d8c-487d-9c87-3783e4d3199c": {
+          "content": "Lezgo champ",
+          "username": "MicMic51",
+          "createdDate": 1690434641812,
+          "updatedDate": 1690434641812
         }
       },
       "createdDate": 1690413511654,

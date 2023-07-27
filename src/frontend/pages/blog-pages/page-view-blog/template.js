@@ -41,12 +41,13 @@ export function template () {
       
       
     
-      ${ !this.isEditing ?   Object.keys(this.blog.comments).forEach(function(key, index) {
+      ${ !this.isEditing ?   this.comments.map(comment =>{
         return html`
-        <h4>${this.blog.comments[key].content}</h4>
-        <h5>${this.blog.comments[key].username}</h5>
-        <h6>${this.blog.comments[key].createdDate}</h6>
-        <h6>${this.blog.comments[key].updatedDate}</h6>
+        <h4>${comment.content}</h4>
+        <h5>${comment.username}</h5>
+        <h6>${comment.createdDate}</h6>
+        <h6>${comment.updatedDate}</h6>
+
         <button @click="${this.editComment}"> Edit </button> 
         <button @click=> Delete </button> 
 

@@ -65,7 +65,7 @@ export const schemas = {
           type: 'string'
         },
         comments: {
-          type: 'object',
+          type: 'array',
           items: {
             type: 'object',
             properties: {
@@ -73,7 +73,7 @@ export const schemas = {
                 type: 'string'
   
               },
-              message: {
+              content: {
                 type: 'string'
               },
               username: {
