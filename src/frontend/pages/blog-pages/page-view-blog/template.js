@@ -32,7 +32,7 @@ export function template () {
       <button @click="${this.editBlog}"> Edit </button>
       <button @click= "${this.deleteBlog}"> Delete </button> 
       ${this.isEditing?  html`
-         <blog-component @submit-blog="${this.editBlogPage} .blog="${this.blog}"></blog-component>
+         <blog-component @submit-blog="${this.updateBlog}" .blog="${this.blog}"></blog-component>
         `
           :''
       }

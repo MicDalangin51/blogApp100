@@ -171,22 +171,6 @@
       "createdDate": 1690348822567,
       "updatedDate": 1690348822567
     },
-    "dd81b963-dd0b-4b4e-92e3-64d18a7cd539": {
-      "title": "Sample",
-      "content": "Sample",
-      "username": "GreekFreak",
-      "comments": {},
-      "createdDate": 1690348832123,
-      "updatedDate": 1690348832123
-    },
-    "0e81c367-1932-42b9-881f-a23bfd87c3e8": {
-      "title": "Sample 2",
-      "content": "Sample",
-      "username": "GreekFreak",
-      "comments": {},
-      "createdDate": 1690348838322,
-      "updatedDate": 1690348838322
-    },
     "15ed75b8-2057-4743-b596-6cd1f7af9a46": {
       "title": "Hello",
       "content": "Test blog",
@@ -218,6 +202,14 @@
       "comments": {},
       "createdDate": 1690362189579,
       "updatedDate": 1690362189579
+    },
+    "dafe7f44-6cdc-4d2d-8684-dbe4439c3c16": {
+      "title": "Giannis's New Blog",
+      "content": "This is an edited new blog that I created just today!",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690413511654,
+      "updatedDate": 1690417372387
     }
   }
 }
