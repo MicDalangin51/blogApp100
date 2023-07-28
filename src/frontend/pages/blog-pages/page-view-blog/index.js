@@ -53,7 +53,7 @@ class Page extends LitPage {
       } else {
         this.blog = await response.json();
         this.comments = this.blog.comments
-        console.log(this.blog.comments)
+        console.log(this.blog)
       }
     } catch (error) {
       return this.setErrorMessage(error, 404);
