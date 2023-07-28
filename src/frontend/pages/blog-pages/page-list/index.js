@@ -24,7 +24,6 @@ class Page extends LitPage {
     }
     try {
       this.blogs = await response.json();
-      console.log(this.blogs);
     } catch (error) {
       return this.setErrorMessage(error, 404);
     }
