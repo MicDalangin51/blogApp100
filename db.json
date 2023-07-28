@@ -411,6 +411,39 @@
       },
       "createdDate": 1690447029632,
       "updatedDate": 1690447029632
+    },
+    "5036afd8-e258-41f7-b359-7a3754a19cb6": {
+      "title": "Comment Test Blog",
+      "content": "This is a new blog to test comments",
+      "username": "dynmrcll",
+      "comments": {
+        "fd444238-2101-4395-b332-d4723205cedb": {
+          "content": "Hello! This comment has also been edited",
+          "username": "dynmrcll",
+          "createdDate": 1690510056213,
+          "updatedDate": 1690510179779
+        },
+        "fbdd7e02-421b-49a7-a6a2-2c5b3b312e47": {
+          "content": "This has just been edited right now",
+          "username": "dynmrcll",
+          "createdDate": 1690510090412,
+          "updatedDate": 1690510699455
+        },
+        "8efbe71c-3682-4d68-930a-f98d81a60c4c": {
+          "content": "Leaving a comment here",
+          "username": "dynmrcll",
+          "createdDate": 1690510942881,
+          "updatedDate": 1690510942881
+        },
+        "f602b718-c496-433f-a941-8ff5fe98b722": {
+          "content": "Samp",
+          "username": "dynmrcll",
+          "createdDate": 1690511381560,
+          "updatedDate": 1690511381560
+        }
+      },
+      "createdDate": 1690510025119,
+      "updatedDate": 1690510025119
     }
   }
 }
