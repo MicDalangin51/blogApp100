@@ -15,8 +15,15 @@ class Page extends LitPage {
   @property({ type: Array })
   comments = []
 
+  @property({ type: String })
+  isEditingCommentId= "";
+
   @property({ type: Boolean })
   isEditing= false;
+
+  @property({ type: Boolean })
+  isEditingComment= false;
+
 
   @property({ type: String })
   errorMessage = ''
@@ -89,10 +96,11 @@ class Page extends LitPage {
     });
     try {
       if (response.status !== 200) {
+        this.isEditing=false;
         return this.setErrorMessage(await response.json(), response.status);
       } else {
         this.blog = await response.json();
-        changeUrl('/blog')
+       
       }
     } catch (error) {
       return this.setErrorMessage(error, 404);
@@ -116,9 +124,67 @@ class Page extends LitPage {
       const data = await response.json();
       // appends the new object
       this.blog.comments = [
-        data,
-        ...this.comments
+        ...this.comments,
+        data
       ];
+    } catch (error) {
+      return this.setErrorMessage(error, 404);
+    }
+  }
+
+  async deleteComment (event) {
+    event.preventDefault();
+    console.log(event);
+
+    // we get the data from the detail being sent by the todo-component
+    const { detail } = event;
+    const response = await window.fetch(`/api/blog/${this.blog.id}/comment/${detail.id}`, {
+      method: 'DELETE',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({id: detail.id})
+    });
+    try {
+      if (response.status !== 200) {
+        return this.setErrorMessage(await response.json(), response.status);
+      } else {
+        console.log(this.comments.filter((obj) => obj.id !== detail.id ));
+        this.comments = this.comments.filter((obj) => obj.id !== detail.id )
+      }
+    } catch (error) {
+      return this.setErrorMessage(error, 404);
+    }
+  }
+
+  async editComment(event){
+    event.preventDefault();
+    this.isEditingComment= true;
+    this.isEditingCommentId= event.detail.id;
+  }
+
+  async updateComment (event) {
+    event.preventDefault();
+
+    console.log(event);
+    // we get the data from the detail being sent by the todo-component
+    const { detail } = event;
+    const response = await window.fetch(`/api/blog/${this.blog.id}/comment/${detail.id}`, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({message: detail.message})
+    });
+    try {
+      if (response.status !== 200) {
+        this.isEditingComment=false;
+        return this.setErrorMessage(await response.json(), response.status);
+      } else {
+        const comm = await response.json();
+        this.comments = this.comments.map(obj => comm.id === obj.id ? comm : obj) ;
+        this.isEditingComment = false;
+      }
     } catch (error) {
       return this.setErrorMessage(error, 404);
     }

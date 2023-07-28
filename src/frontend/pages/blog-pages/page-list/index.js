@@ -24,7 +24,6 @@ class Page extends LitPage {
     }
     try {
       this.blogs = await response.json();
-      console.log(this.blogs);
     } catch (error) {
       return this.setErrorMessage(error, 404);
     }
@@ -57,6 +56,9 @@ class Page extends LitPage {
     const { message, error } = data;
     this.errorMessage = `HTTP Code: ${status} - ${error} - ${message}`;
     await state.set('user-is-logged-in', false);
+    setTimeout(() => {
+      this.errorMessage = '';
+    }, 2000);
   }
 }
 
