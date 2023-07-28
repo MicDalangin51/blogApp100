@@ -58,7 +58,7 @@ export const schemas = {
         title: {
           type: 'string'
         },
-        description: {
+        content: {
           type: 'string'
         },
         username: {
