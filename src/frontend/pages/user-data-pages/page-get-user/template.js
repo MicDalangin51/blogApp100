@@ -14,7 +14,7 @@ export function template () {
       }
     </style>
     <h2>
-      Blogs
+      See User Data
     </h2>
     <form @submit=${this.seeUserData}>
     ${this.errorMessage
