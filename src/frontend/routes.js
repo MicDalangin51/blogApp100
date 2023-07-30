@@ -48,7 +48,7 @@ export const routes = {
     `,
     // runs all scripts, if any one of the functions in the list fails
     preRender: [
-      redirectIfLoggedIn,
+      redirectIfLoggedOut,
       () => import('./pages/user-data-pages/page-change-password/index.js')
     ]
   },
@@ -69,7 +69,7 @@ export const routes = {
     `,
     // runs all scripts, if any one of the functions in the list fails
     preRender: [
-      redirectIfLoggedIn,
+      redirectIfLoggedOut,
       () => import('./pages/user-data-pages/page-change-user-data/index.js')
     ]
   },

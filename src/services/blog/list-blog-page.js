@@ -2,7 +2,7 @@ import { getData } from '../../utils/db/index.js';
 
 export const listBlogPage = async (request, reply) => {
   const { query, username } = request;
-  const { limit = 5 } = query;
+  const { limit = 8 } = query;
 
   // check if there is username (meaning logged in)
   if (!username) {

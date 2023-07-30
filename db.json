@@ -22,11 +22,11 @@
       "updatedDate": 1689257993403
     },
     "GreekFreak": {
-      "hashedPassword": "$2b$10$il1LcRa5U/ERKY9V2P3IeeyetEmz1WDrSfE1iSPjVNaSMw1ov.WT2",
+      "hashedPassword": "$2b$10$qB85oNOlnMnq51kXKb3I/OetFM.1rR1JCN1Jp6M4OCO8LMyB3aheS",
       "firstName": "Gia",
-      "lastName": "Anteto",
+      "lastName": "Antetokounmpo",
       "createdDate": 1689255696044,
-      "updatedDate": 1690352028913
+      "updatedDate": 1690705472317
     },
     "dynmrcll": {
       "hashedPassword": "$2b$10$Ys3/Y9vQ7dBZ/5QHoj0Wr.ARJHhQcxGuyxOMlFjkt4zdU/AeHhfL2",
@@ -37,10 +37,10 @@
     },
     "MicMic51": {
       "hashedPassword": "$2b$10$FKMKp1Q8ky.l0vAwPuswGu6FlHDJH8nJur2Qp6oJk0aEY2TNzqgK2",
-      "firstName": "Martin",
-      "lastName": "Dalangin",
+      "firstName": "Ivan",
+      "lastName": "Cortes",
       "createdDate": 1689561413715,
-      "updatedDate": 1689561413715
+      "updatedDate": 1690718567325
     },
     "TheKlaw": {
       "hashedPassword": "$2b$10$Wo99dR3ZRkXIAE11aIbBsekf/QpDjjaU5CzEgA5rbI7mkfPpn5X3m",
@@ -62,6 +62,13 @@
       "lastName": "Curry",
       "createdDate": 1690528887076,
       "updatedDate": 1690528887076
+    },
+    "TheJoker": {
+      "hashedPassword": "$2b$10$Qrawij5hFbhifnnJnt2B8.hsak485H4kgoZ4rjalYuIX4hTR.0hvC",
+      "firstName": "Nikola",
+      "lastName": "Jokic",
+      "createdDate": 1690694521805,
+      "updatedDate": 1690694521805
     }
   },
   "blogs": {
@@ -534,6 +541,50 @@
       "comments": {},
       "createdDate": 1690683035499,
       "updatedDate": 1690683035499
+    },
+    "3bd3cd92-bfb9-45dc-a91c-567a727dea47": {
+      "title": "Denver are 2023 champions",
+      "content": "The Denver Nuggets win this year's NBA finals after defeating the Miami Heat 4-1 in this year's finals. Nikola Jokic won finals MVP together with the first NBA championship of his career.",
+      "username": "TheJoker",
+      "comments": {},
+      "createdDate": 1690694627603,
+      "updatedDate": 1690694627603
+    },
+    "f9ddd612-d7d0-4b08-b96c-90c46ce72214": {
+      "title": "Can the weather get any worse?",
+      "content": "Its been raining for the past 2 weeks and I just wonder if it will get any better.",
+      "username": "dynmrcll",
+      "comments": {
+        "70922326-f9de-4fdc-b091-0e6e6cfca61e": {
+          "content": "I will add a new comment here. Try to edit if you can",
+          "username": "dynmrcll",
+          "createdDate": 1690705108697,
+          "updatedDate": 1690705108697
+        }
+      },
+      "createdDate": 1690704988352,
+      "updatedDate": 1690704988352
+    },
+    "137493a2-b252-499d-b43e-91d3570f364f": {
+      "title": "I've Feeling Under the Weather",
+      "content": "I am not feeling well today. I wonder if it is because of the weather",
+      "username": "dynmrcll",
+      "comments": {
+        "a984d8d1-2669-4355-a061-8281038a369b": {
+          "content": "Ughhhh sinisipon akop",
+          "username": "dynmrcll",
+          "createdDate": 1690718401443,
+          "updatedDate": 1690718401443
+        },
+        "474610fc-ace7-4073-938d-f8bdf243ad87": {
+          "content": "Rest well",
+          "username": "MicMic51",
+          "createdDate": 1690718449442,
+          "updatedDate": 1690718449442
+        }
+      },
+      "createdDate": 1690718355401,
+      "updatedDate": 1690718371369
     }
   }
 }
