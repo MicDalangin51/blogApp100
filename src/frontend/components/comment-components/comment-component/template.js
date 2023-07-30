@@ -24,14 +24,15 @@ export function template () {
     </style>
     <form class="todo-create-form" @submit="${this.submitComment}">
       <div class="label-input-group">
-        <label for="message">
-          Message:
+        <label for="content">
+          Comment Content:
         </label>
-        <input type="text" placeholder="Message" id="message" name="message" value="${this.comment?.message}">
+        <input type="text" placeholder="Content" id="content" name="content" value="${this.comment?.content}">
       </div>
       <div class="flex-group">
         <button>
           Create Comment
+          ${this.text}
         </button>
       </div>
     </form>

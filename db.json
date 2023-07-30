@@ -55,6 +55,13 @@
       "lastName": "User",
       "createdDate": 1689833016006,
       "updatedDate": 1689833016006
+    },
+    "ChefCurry": {
+      "hashedPassword": "$2b$10$NVMRladp42KX4D/h5Ll8ZuTd/XLOqM.JCwZBRUPiCboKJ40u0j1eO",
+      "firstName": "Steph",
+      "lastName": "Curry",
+      "createdDate": 1690528887076,
+      "updatedDate": 1690528887076
     }
   },
   "blogs": {
@@ -451,9 +458,82 @@
       "title": "New Blog 12",
       "content": "This is another Sample Blog",
       "username": "GreekFreak",
-      "comments": {},
+      "comments": {
+        "279e94cb-8631-44ae-a503-e31534563d35": {
+          "content": "Hello this is a comment",
+          "username": "GreekFreak",
+          "createdDate": 1690528081058,
+          "updatedDate": 1690528081058
+        },
+        "83a1fc07-19da-4e06-af0c-72869c92ec93": {
+          "content": "This is another Sample Blog",
+          "username": "GreekFreak",
+          "createdDate": 1690528324242,
+          "updatedDate": 1690528324242
+        }
+      },
       "createdDate": 1690527945482,
       "updatedDate": 1690527945482
+    },
+    "9da97691-3c84-43ca-946d-36eb6d078dc9": {
+      "title": "Lakers Sign Gabe Vincent",
+      "content": "Gabe Vincent heads to the Lakers which gives them more depth to their Point Guard position for the upcoming 2023-24 NBA season.",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690528710869,
+      "updatedDate": 1690528710869
+    },
+    "0fb56481-3e3f-4220-8222-7c411a97c230": {
+      "title": "Can Ben Simmons Play next season??",
+      "content": "After consecutive disappointing seasons for the former All-Star, next season proves to be a pivotal moment in deciding the NBA Star's future with the Brooklyn Nets",
+      "username": "ChefCurry",
+      "comments": {
+        "3a2a9c71-3eeb-4e0d-ae23-bd75e3077a4c": {
+          "content": "I don't think he can play. He's washed LOL",
+          "username": "ChefCurry",
+          "createdDate": 1690677634839,
+          "updatedDate": 1690677686026
+        }
+      },
+      "createdDate": 1690528987397,
+      "updatedDate": 1690677724385
+    },
+    "688174a7-dcec-4cf0-b89d-badef68f985e": {
+      "title": "Is this my last?",
+      "content": "Contemplating on wherther this would be the last time I would play Mobile Legends.",
+      "username": "MicMic51",
+      "comments": {},
+      "createdDate": 1690678813419,
+      "updatedDate": 1690678813419
+    },
+    "c7ef731f-1b83-49ce-827a-553a87964517": {
+      "title": "Blog for testing",
+      "content": "I will use this blog to test the different features",
+      "username": "MicMic51",
+      "comments": {
+        "3244fdb3-48e1-47d2-a64f-a71c7c5a9e58": {
+          "content": "Now lets test if another user can edit this comment",
+          "username": "MicMic51",
+          "createdDate": 1690681681313,
+          "updatedDate": 1690681681313
+        },
+        "bf07839d-92df-4bb2-a0c6-e1436e439c31": {
+          "content": "So far so good. I cannot edit or delete another user's comment",
+          "username": "GreekFreak",
+          "createdDate": 1690683805581,
+          "updatedDate": 1690683805581
+        }
+      },
+      "createdDate": 1690681528734,
+      "updatedDate": 1690681528734
+    },
+    "218a7d61-8345-484e-8b09-5a237e2aa3c8": {
+      "title": "New Blog by GreekFreak",
+      "content": "This is another new blog to test the new features of the app",
+      "username": "GreekFreak",
+      "comments": {},
+      "createdDate": 1690683035499,
+      "updatedDate": 1690683035499
     }
   }
 }

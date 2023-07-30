@@ -34,7 +34,7 @@ export function template () {
     </div>
     <div class="flex-group">
       <button>
-        Get User Data
+        See User Data
       </button>
     </div>
     ${Object.keys(this.userData).length
