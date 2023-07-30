@@ -10,6 +10,9 @@ class Page extends LitNoShadow {
   @property({ type: Object })
   comment = null
 
+  @property({ type: String })
+  text = ''
+
 
 
   render () {
@@ -23,7 +26,7 @@ class Page extends LitNoShadow {
 
     const detail = {
       id : this.comment.id,
-      message: form.message.value,
+      content: form.content.value,
 
     };
 

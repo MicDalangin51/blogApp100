@@ -5,16 +5,6 @@ import '../../../components/comment-components/button-component/index.js';
 
 export function template () {
   return html`
-    <style>
-      .todo {
-        display: flex;
-        align-items: center;
-        padding: 12px;
-      }
-      .todo * {
-        flex: 1;
-      }
-    </style>
     
     ${this.errorMessage
       // if this is an errorMessage
@@ -27,8 +17,8 @@ export function template () {
       ${Object.keys(this.blog).length ? html`
       <h2>Blog Title: ${this.blog.title}</h2>
       <h3>Blog Content: ${this.blog.content}</h3>
-      
-      <div> <h5> Created on ${new Date(this.blog.createdDate).toDateString()}| </h5></div>
+      <h3>Author: ${this.blog.username}</h3>
+      <div> <h5> Created on ${new Date(this.blog.createdDate).toDateString()}</h5></div>
       <div> <h5>Last updated on ${new Date( this.blog.updatedDate).toDateString()}</h5></div>
       <button @click="${this.editBlog}"> Edit </button>
       <button @click="${this.deleteBlog}"> Delete </button> 
@@ -53,14 +43,14 @@ export function template () {
         <button-component @submit-comment="${this.deleteComment}" .comment="${comment}" text= "Delete"></button-component> 
 
         ${this.isEditingComment && (this.isEditingCommentId === comment.id) ?  html`
-        <comment-component @submit-comment="${this.updateComment}" .comment="${comment}"></comment-component>
+        <comment-component @submit-comment="${this.updateComment}" .comment="${comment}" text=""></comment-component>
        `
          :''}
         `
       }): ''}
 
 
-      <comment-component @submit-comment="${this.createComment}"   .comment = "${this.blog}" ></comment-component>
+      <comment-component @submit-comment="${this.createComment}"   .comment = "${this.blog}"  text="" ></comment-component>
     
     `: ''}
    

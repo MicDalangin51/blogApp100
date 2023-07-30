@@ -53,7 +53,7 @@ class Page extends LitPage {
       } else {
         this.blog = await response.json();
         this.comments = this.blog.comments
-        console.log(this.blog.comments)
+        console.log(this.blog)
       }
     } catch (error) {
       return this.setErrorMessage(error, 404);
@@ -118,14 +118,14 @@ class Page extends LitPage {
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({content: detail.message})
+      body: JSON.stringify({content: detail.content})
     });
     try {
       const data = await response.json();
       // appends the new object
       this.blog.comments = [
-        ...this.comments,
-        data
+        data,
+        ...this.comments
       ];
     } catch (error) {
       return this.setErrorMessage(error, 404);
@@ -174,7 +174,7 @@ class Page extends LitPage {
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify({message: detail.message})
+      body: JSON.stringify({content: detail.content})
     });
     try {
       if (response.status !== 200) {
@@ -194,6 +194,9 @@ class Page extends LitPage {
   async setErrorMessage (data, status) {
     const { message, error } = data;
     this.errorMessage = `HTTP Code: ${status} - ${error} - ${message}`;
+    setTimeout(() => {
+      this.errorMessage = '';
+    }, 2000);
   }
 }
 
